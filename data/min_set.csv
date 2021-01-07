@@ -1,0 +1,2526 @@
+,on_street_name,total_injured,total_killed,accidents
+0,1 Avenue,24.0,0.0,24
+1,1 Street,0.0,0.0,2
+2,10 Avenue,14.0,0.0,15
+3,10 Street,0.0,0.0,1
+4,10-021 Mcbride Street,0.0,0.0,1
+5,10-51 Jackson Avenue,2.0,0.0,1
+6,10-73 Mcbride Street,0.0,0.0,1
+7,100 Avenue,2.0,0.0,1
+8,100 Street,2.0,0.0,2
+9,100-01 Northern Boulevard,0.0,0.0,1
+10,100-21 197 Street,0.0,0.0,1
+11,101 Avenue,4.0,0.0,2
+12,101 Street,0.0,0.0,1
+13,101-12 Christie Avenue,0.0,0.0,1
+14,102 Avenue,2.0,0.0,1
+15,102 Street,2.0,0.0,3
+16,102-10 Ditmars Boulevard,0.0,0.0,1
+17,102-11 Lewis Avenue,0.0,0.0,1
+18,102-22 184 Street,2.0,0.0,1
+19,103 Avenue,0.0,0.0,2
+20,103 Street,4.0,0.0,3
+21,103-08 113 Street,0.0,0.0,1
+22,103-15 Roosevelt Avenue,2.0,0.0,1
+23,103-19 Merrick Boulevard,0.0,0.0,1
+24,103-32 110 Street,0.0,0.0,1
+25,103-32 120 Street,0.0,0.0,1
+26,104 Avenue,0.0,0.0,1
+27,104 Street,0.0,0.0,1
+28,104-14 212 Street,0.0,0.0,1
+29,104-31 93 Avenue,0.0,0.0,1
+30,104-40 Queens Boulevard,0.0,0.0,1
+31,104-68 42 Avenue,0.0,0.0,1
+32,105 Street,0.0,0.0,2
+33,105-01 Farmers Boulevard,0.0,0.0,1
+34,105-04 Westside Avenue,0.0,0.0,1
+35,105-15 63 Drive,2.0,0.0,1
+36,105-23 150 Street,0.0,0.0,1
+37,106-01 Martense Avenue,0.0,0.0,1
+38,106-16 Jamaica Avenue,0.0,0.0,1
+39,107 Avenue,4.0,0.0,3
+40,107 Street,2.0,0.0,4
+41,107-03 159 Street,0.0,0.0,1
+42,107-07 103 Street,0.0,0.0,2
+43,107-09 Rockaway Boulevard,0.0,0.0,1
+44,107-10 Inwood Street,0.0,0.0,1
+45,107-18 Jamaica Avenue,0.0,0.0,1
+46,107-33 118 Street,0.0,0.0,1
+47,107-34 171 Street,0.0,0.0,1
+48,107-37 142 Street,0.0,0.0,1
+49,107-72 109 Street,0.0,0.0,1
+50,108 Avenue,0.0,0.0,1
+51,108 Street,6.0,0.0,7
+52,108-01 Horace Harding Expressway,0.0,0.0,1
+53,108-04 Brewer Boulevard,0.0,0.0,1
+54,108-25 Fern Place,0.0,0.0,1
+55,108-50 Roosevelt Avenue,0.0,0.0,1
+56,108-55 49 Avenue,0.0,0.0,1
+57,108-75 51 Avenue,0.0,0.0,1
+58,109 Avenue,6.0,0.0,5
+59,109 Street,0.0,0.0,2
+60,109-04 Ditmars Boulevard,0.0,0.0,1
+61,109-14 122 Street,0.0,0.0,1
+62,109-15 Merrick Boulevard,2.0,0.0,1
+63,109-15 Westside Avenue,0.0,0.0,1
+64,109-18 Sutphin Boulevard,0.0,0.0,1
+65,109-25 Merrick Boulevard,0.0,0.0,1
+66,109-31 Vanwyck Expressway,0.0,0.0,1
+67,109-59 Colfax Street,0.0,0.0,1
+68,11 Avenue,10.0,0.0,15
+69,11 Street,10.0,1.0,9
+70,11-41 Mcbride Street,0.0,0.0,1
+71,110 Avenue,2.0,0.0,3
+72,110 Road,0.0,0.0,1
+73,110 Street,2.0,0.0,2
+74,110-00 Rockaway Boulevard,0.0,0.0,1
+75,110-01 Northern Boulevard,0.0,0.0,1
+76,110-16 172 Street,2.0,0.0,1
+77,110-97 85 Avenue,0.0,0.0,1
+78,111 Avenue,4.0,0.0,5
+79,111 Street,2.0,0.0,7
+80,111-04 111 Street,2.0,0.0,1
+81,111-15 37 Avenue,0.0,0.0,1
+82,111-22 38 Avenue,0.0,0.0,1
+83,112 Street,2.0,0.0,2
+84,112-05 Sutphin Boulevard,0.0,0.0,1
+85,112-06 71 Road,0.0,0.0,1
+86,112-20 Rockaway Boulevard,0.0,0.0,1
+87,112-23 Roosevelt Avenue,0.0,0.0,1
+88,113 Avenue,0.0,0.0,1
+89,113 Road,0.0,0.0,1
+90,113 Street,4.0,0.0,2
+91,114 Drive,2.0,0.0,1
+92,114 Street,0.0,0.0,6
+93,114-14C Sutphin Boulevard,2.0,0.0,1
+94,114-35 Bedell Street,0.0,0.0,1
+95,115 Avenue,4.0,0.0,2
+96,115 Road,0.0,0.0,1
+97,115-05 Atlantic Avenue,0.0,0.0,1
+98,115-062 223 Street,0.0,0.0,1
+99,115-12 Jamaica Avenue,0.0,0.0,1
+100,115-54 Francis Lewis Boulevard,2.0,0.0,1
+101,116 Avenue,2.0,0.0,4
+102,116 Road,0.0,0.0,2
+103,116-11 109 Avenue,0.0,0.0,1
+104,116-35 Vanwyck Expressway,2.0,0.0,1
+105,117 Street,0.0,0.0,1
+106,117-14 Vanwyck Expressway,0.0,0.0,1
+107,118 Avenue,2.0,0.0,3
+108,118 Street,2.0,0.0,3
+109,118-19 Vanwyck Expressway,2.0,0.0,1
+110,118-80 Metropolitan Avenue,0.0,0.0,1
+111,119 Avenue,2.0,0.0,1
+112,119-17 Springfield Boulevard,0.0,0.0,1
+113,119-25 Atlantic Avenue,0.0,0.0,1
+114,12 Avenue,0.0,0.0,8
+115,12 Road,2.0,0.0,2
+116,12 Street,2.0,0.0,3
+117,120 Avenue,4.0,0.0,5
+118,120 Street,2.0,0.0,6
+119,121 Street,2.0,0.0,2
+120,121-04 Long Street,0.0,0.0,1
+121,121-05 107 Avenue,0.0,0.0,1
+122,121-15 Liberty Avenue,0.0,0.0,1
+123,122-22 Long Street,0.0,0.0,1
+124,123 Avenue,0.0,0.0,1
+125,123 Street,2.0,0.0,2
+126,123-16 83 Avenue,2.0,0.0,1
+127,1235A 79 Street,0.0,0.0,1
+128,124 Street,0.0,0.0,4
+129,124-03 109 Avenue,0.0,0.0,1
+130,125 Street,0.0,0.0,1
+131,126 Street,4.0,0.0,5
+132,126-07 Liberty Avenue,2.0,0.0,1
+133,127 Street,0.0,0.0,4
+134,127-26 101 Avenue,0.0,0.0,1
+135,127-54 Willets Point Boulevard,2.0,0.0,1
+136,128 Street,0.0,0.0,1
+137,128-12 172 Street,0.0,0.0,1
+138,128-18 116 Avenue,0.0,0.0,1
+139,129 Avenue,0.0,0.0,1
+140,13 Avenue,2.0,0.0,4
+141,13 Street,6.0,0.0,3
+142,13-16 Augustina Avenue,0.0,0.0,1
+143,13-28 Sage Street,0.0,0.0,1
+144,13-75 Pinson Street,2.0,0.0,1
+145,130 Avenue,6.0,0.0,3
+146,130 Place,0.0,0.0,1
+147,130 Street,2.0,0.0,2
+148,130-08 101 Avenue,2.0,0.0,1
+149,130-08 160 Street,0.0,0.0,1
+150,130-21 140 Street,0.0,0.0,1
+151,130-23 101 Avenue,0.0,0.0,1
+152,131 Avenue,0.0,0.0,1
+153,131-35 Avery Avenue,2.0,0.0,1
+154,132 Avenue,0.0,0.0,1
+155,132 Street,0.0,0.0,2
+156,132-67 Bedell Street,0.0,0.0,1
+157,133 Avenue,4.0,0.0,6
+158,133 Street,2.0,0.0,3
+159,133-06 115 Avenue,0.0,0.0,1
+160,133-08 120 Street,0.0,0.0,1
+161,133-11 20 Avenue,0.0,0.0,1
+162,133-11 Cross Bay Boulevard,0.0,0.0,1
+163,133-23 221 Street,0.0,0.0,1
+164,133-47 Denis Street,0.0,0.0,1
+165,134 Avenue,0.0,0.0,1
+166,134 Street,2.0,0.0,2
+167,134-14 109 Avenue,0.0,0.0,1
+168,135 Avenue,2.0,0.0,1
+169,135 Street,0.0,0.0,1
+170,137 Avenue,4.0,0.0,2
+171,137-20 231 Street,0.0,0.0,1
+172,137-58 Northern Boulevard,0.0,0.0,1
+173,138 Avenue,0.0,0.0,1
+174,138-05 Jamaica Avenue,2.0,0.0,1
+175,138-08 Linden Boulevard,0.0,0.0,1
+176,138-17 Lakewood Avenue,2.0,0.0,1
+177,138-19 Hillside Avenue,0.0,0.0,1
+178,139 Street,0.0,0.0,1
+179,139-11 182 Street,0.0,0.0,1
+180,139-42 87 Avenue,0.0,0.0,1
+181,14 Avenue,8.0,0.0,10
+182,14 Street,0.0,0.0,5
+183,14-05 New Haven Avenue,0.0,0.0,1
+184,14-16 Cornaga Avenue,2.0,0.0,1
+185,14-30 Seagirt Boulevard,0.0,0.0,1
+186,14-99 Beach Channel Drive,2.0,0.0,2
+187,140 Avenue,0.0,0.0,1
+188,140-32 Brewer Boulevard,0.0,0.0,1
+189,141 Street,0.0,0.0,1
+190,141-16 Foch Boulevard,0.0,0.0,1
+191,141-18 249 Street,0.0,0.0,1
+192,141-20 77 Road,0.0,0.0,1
+193,141-40 84 Drive,2.0,0.0,1
+194,142 Street,2.0,0.0,1
+195,143 Street,0.0,0.0,1
+196,144 Avenue,2.0,0.0,4
+197,144 Road,0.0,0.0,1
+198,144-18 107 Avenue,0.0,0.0,1
+199,144-23 76 Road,0.0,0.0,1
+200,144-33 Grand Central Parkway,0.0,0.0,1
+201,144-38 175 Street,0.0,0.0,1
+202,145 Drive,0.0,0.0,1
+203,145 Road,2.0,0.0,2
+204,145-05 Beach Channel Drive,2.0,0.0,1
+205,145-08 Liberty Avenue,2.0,0.0,1
+206,145-18 232 Street,0.0,0.0,1
+207,146 Road,0.0,0.0,1
+208,146 Street,2.0,0.0,6
+209,146-55 177 Street,0.0,0.0,1
+210,147 Avenue,0.0,0.0,2
+211,147 Road,2.0,0.0,1
+212,147 Street,2.0,0.0,5
+213,147-17 Charter Road,0.0,0.0,1
+214,147-26 Ferndale Avenue,0.0,0.0,1
+215,148 Avenue,0.0,0.0,1
+216,148 Street,8.0,0.0,7
+217,149 Avenue,4.0,0.0,3
+218,149 Street,0.0,0.0,2
+219,15 Avenue,0.0,0.0,3
+220,15 Drive,0.0,0.0,1
+221,15-13 Central Avenue,0.0,0.0,1
+222,150 Avenue,2.0,0.0,4
+223,150 Street,6.0,0.0,11
+224,150-09 88 Avenue,0.0,0.0,1
+225,150-20 Grand Central Parkway,0.0,0.0,1
+226,150-30 75 Avenue,0.0,0.0,1
+227,150-35 Linden Boulevard,0.0,0.0,1
+228,150-52 76 Road,0.0,0.0,1
+229,151 Avenue,0.0,0.0,1
+230,151-34 79 Avenue,0.0,0.0,1
+231,152-17 88 Avenue,0.0,0.0,1
+232,153 Street,0.0,0.0,5
+233,153-17 Union Turnpike,0.0,0.0,1
+234,154 Place,0.0,0.0,1
+235,154 Street,2.0,0.0,5
+236,154-05 Rockaway Boulevard,0.0,0.0,1
+237,155 Street,2.0,0.0,2
+238,155-07 114 Road,0.0,0.0,1
+239,155-11 146 Avenue,2.0,0.0,1
+240,156 Street,2.0,0.0,1
+241,156-11 North Conduit Avenue,0.0,0.0,1
+242,157 Street,2.0,0.0,3
+243,158-15 75 Avenue,0.0,0.0,1
+244,158-47 102 Street,2.0,0.0,1
+245,159 Street,2.0,0.0,2
+246,16 Avenue,4.0,0.0,2
+247,160 Street,0.0,0.0,3
+248,160-07 108 Avenue,0.0,0.0,1
+249,160-10 Cross Bay Boulevard,0.0,0.0,1
+250,160-13 109 Avenue,0.0,0.0,1
+251,160-15 108 Avenue,0.0,0.0,1
+252,160-28 Baisley Boulevard,0.0,0.0,1
+253,160-33 Claude Avenue,0.0,0.0,1
+254,161 Street,0.0,0.0,1
+255,161-16 45 Avenue,0.0,0.0,1
+256,162-11 89 Avenue,2.0,0.0,1
+257,163 Avenue,2.0,0.0,1
+258,163 Street,0.0,0.0,3
+259,163-26 Jamaica Avenue,0.0,0.0,1
+260,164 Street,6.0,1.0,6
+261,164-33 Cross Bay Boulevard,0.0,0.0,1
+262,165 Street,2.0,0.0,6
+263,166-02 Baisley Boulevard,2.0,0.0,2
+264,166-02 Jamaica Avenue,4.0,0.0,2
+265,167 Street,2.0,0.0,4
+266,168 Street,6.0,0.0,4
+267,168-27 Baisley Boulevard,0.0,0.0,1
+268,168-30B Jamaica Avenue,0.0,0.0,1
+269,168-32 Highland Avenue,0.0,0.0,1
+270,169 Street,0.0,0.0,3
+271,17 Avenue,0.0,0.0,3
+272,17 Street,0.0,0.0,2
+273,17-11 New Haven Avenue,2.0,0.0,1
+274,170 Street,0.0,0.0,3
+275,170-10 Foch Boulevard,0.0,0.0,1
+276,171 Street,0.0,0.0,1
+277,171-10 Crocheron Avenue,0.0,0.0,1
+278,172 Street,2.0,0.0,2
+279,172-11 89 Avenue,0.0,0.0,1
+280,172-63 125 Avenue,0.0,0.0,1
+281,173 Street,0.0,0.0,2
+282,173-08 108 Avenue,2.0,0.0,1
+283,175 Street,0.0,0.0,1
+284,175-03 Horace Harding Expressway,0.0,0.0,1
+285,175-20 Hillside Avenue,2.0,0.0,1
+286,175-30 Horace Harding Expressway,0.0,0.0,1
+287,176 Street,0.0,0.0,1
+288,177-11 145 Road,0.0,0.0,1
+289,177-18 119 Road,0.0,0.0,1
+290,177-37 105 Avenue,0.0,0.0,1
+291,178-20 147 Avenue,2.0,0.0,1
+292,178-27 107 Avenue,0.0,0.0,1
+293,179 Street,0.0,0.0,1
+294,179-15 Croydon Road,0.0,0.0,1
+295,179-30 93 Avenue,0.0,0.0,1
+296,18 Avenue,4.0,0.0,10
+297,18 Street,2.0,0.0,1
+298,18-03 26 Road,0.0,0.0,1
+299,18-07 Astoria Boulevard,0.0,0.0,1
+300,180 Street,2.0,0.0,3
+301,180-01 144 Avenue,0.0,0.0,1
+302,182 Street,0.0,0.0,1
+303,182-11 North Conduit Avenue,2.0,0.0,1
+304,184 Place,4.0,0.0,2
+305,187-10 Hillside Avenue,0.0,0.0,1
+306,187-30 Grand Central Parkway,0.0,0.0,1
+307,188 Street,4.0,0.0,7
+308,189 Street,2.0,0.0,2
+309,189-13 Jamaica Avenue,0.0,0.0,1
+310,189-23 Union Turnpike,2.0,0.0,1
+311,19 Avenue,2.0,0.0,2
+312,19 Street,0.0,0.0,2
+313,19-15 Seagirt Boulevard,2.0,0.0,1
+314,19-36 38 Street,0.0,0.0,1
+315,190 Street,0.0,0.0,1
+316,190-02 117 Road,0.0,0.0,1
+317,190-11 Hollis Avenue,0.0,0.0,1
+318,190-24 110 Road,0.0,0.0,1
+319,190-31 118 Avenue,2.0,0.0,1
+320,191-20 Northern Boulevard,0.0,0.0,1
+321,192-07 37 Avenue,0.0,0.0,1
+322,192-08 105 Avenue,0.0,0.0,1
+323,192-10C 64 Avenue,0.0,0.0,1
+324,193 Street,0.0,0.0,2
+325,194 Street,2.0,0.0,2
+326,195 Street,0.0,0.0,1
+327,196-01 Foothill Avenue,0.0,0.0,1
+328,196-16 Pompeii Avenue,0.0,0.0,1
+329,197 Street,2.0,0.0,2
+330,197-11 Jamaica Avenue,0.0,0.0,1
+331,198 Street,0.0,0.0,1
+332,199 Street,0.0,0.0,1
+333,2 Avenue,30.0,0.0,39
+334,2 Street,0.0,0.0,1
+335,20 Avenue,4.0,0.0,6
+336,20 Street,0.0,0.0,1
+337,20-30 Elk Drive,0.0,0.0,1
+338,20-49 Seagirt Boulevard,2.0,0.0,1
+339,20-64 47 Street,0.0,0.0,1
+340,200 Street,0.0,0.0,1
+341,201 Street,0.0,0.0,1
+342,201-36 Epsom Course,0.0,0.0,1
+343,202 Street,4.0,0.0,4
+344,202-05 Jamaica Avenue,0.0,0.0,1
+345,202-15 Northern Boulevard,0.0,0.0,1
+346,203 Street,0.0,0.0,1
+347,204 Street,0.0,0.0,2
+348,204-14 Hollis Avenue,0.0,0.0,1
+349,207 Street,0.0,0.0,1
+350,209-10 Nashville Boulevard,0.0,0.0,1
+351,21 Avenue,6.0,0.0,6
+352,21 Street,2.0,0.0,7
+353,21-15 21 Street,0.0,0.0,1
+354,21-23 31 Avenue,0.0,0.0,1
+355,21-69 Shore Boulevard,0.0,0.0,1
+356,210-08 93 Avenue,0.0,0.0,1
+357,211 Street,0.0,0.0,2
+358,211-60 Hillside Avenue,0.0,0.0,1
+359,211D West 151 Street,2.0,0.0,1
+360,212 Street,0.0,0.0,5
+361,212-19 Northern Boulevard,2.0,0.0,1
+362,213-15 26 Avenue,2.0,0.0,1
+363,214 Place,0.0,0.0,1
+364,215-25 99 Avenue,2.0,0.0,1
+365,215-52 Murdock Avenue,0.0,0.0,1
+366,216-25 136 Avenue,0.0,0.0,1
+367,217 Street,0.0,0.0,1
+368,218 Place,2.0,0.0,1
+369,218 Street,0.0,0.0,1
+370,218-41 100 Avenue,0.0,0.0,1
+371,219 Street,0.0,0.0,1
+372,219-05 130 Avenue,0.0,0.0,1
+373,219-20 Northern Boulevard,0.0,0.0,1
+374,22 Street,2.0,0.0,3
+375,22-18 Mott Avenue,0.0,0.0,1
+376,22-25 28 Avenue,0.0,0.0,1
+377,221 Street,0.0,0.0,1
+378,222 Street,0.0,0.0,3
+379,223 Street,4.0,0.0,3
+380,223-04 139 Avenue,0.0,0.0,1
+381,223-20 135 Avenue,0.0,0.0,1
+382,225 Street,2.0,0.0,2
+383,225-24 107 Avenue,2.0,0.0,1
+384,226 Street,0.0,0.0,1
+385,226-07 137 Avenue,0.0,0.0,1
+386,227-15 130 Avenue,0.0,0.0,1
+387,227A Scholes Street,2.0,0.0,1
+388,228 Street,2.0,0.0,1
+389,229 Street,0.0,0.0,1
+390,229-11 144 Avenue,0.0,0.0,1
+391,23 Avenue,4.0,0.0,5
+392,23 Street,6.0,0.0,4
+393,23-14 College Point Boulevard,0.0,0.0,1
+394,23-17 123 Street,0.0,0.0,1
+395,23-18 24 Avenue,0.0,0.0,1
+396,23-30 31 Avenue,0.0,0.0,1
+397,23-89 27 Street,0.0,0.0,1
+398,230-19 Rockaway Boulevard,2.0,1.0,1
+399,230-59 Rockaway Boulevard,0.0,0.0,1
+400,231 Street,0.0,0.0,1
+401,233 Street,0.0,0.0,1
+402,234 Street,2.0,0.0,2
+403,234-20 Linden Boulevard,0.0,0.0,1
+404,235 Street,2.0,0.0,1
+405,24 Avenue,0.0,0.0,2
+406,24 Road,0.0,0.0,1
+407,24 Street,2.0,0.0,3
+408,24-11 21 Avenue,0.0,0.0,1
+409,24-17 Cornaga Avenue,0.0,0.0,1
+410,24-28 Humphreys Street,0.0,0.0,1
+411,24-31 Steinway Street,2.0,0.0,1
+412,24-53 23 Street,0.0,0.0,1
+413,24-58 Gillmore Street,2.0,0.0,1
+414,240-40 141 Avenue,2.0,0.0,1
+415,241 Street,4.0,0.0,4
+416,241-27 148 Road,0.0,0.0,1
+417,242-24 Northern Boulevard,2.0,0.0,1
+418,242-25 91 Avenue,0.0,0.0,1
+419,243 Street,2.0,0.0,2
+420,245-10 Grand Central Parkway,0.0,0.0,1
+421,247 Street,0.0,0.0,1
+422,247-12 South Conduit Avenue,0.0,0.0,1
+423,248-10 Brookville Boulevard,0.0,0.0,1
+424,248-25 Northern Boulevard,0.0,0.0,1
+425,249-12 Hillside Avenue,0.0,0.0,1
+426,25 Avenue,0.0,0.0,1
+427,25 Road,0.0,0.0,1
+428,25 Street,0.0,0.0,1
+429,25-02 Camp Road,0.0,0.0,1
+430,25-22 Steinway Street,0.0,0.0,1
+431,25-40 72 Street,2.0,0.0,1
+432,25-58 35 Street,0.0,0.0,1
+433,25-68 23 Street,0.0,0.0,1
+434,251 Street,0.0,0.0,1
+435,252-20 82 Avenue,0.0,0.0,1
+436,253 Street,4.0,0.0,2
+437,254 Street,4.0,0.0,2
+438,255-037 Jamaica Avenue,0.0,0.0,1
+439,256 Street,0.0,0.0,1
+440,257-19 149 Road,0.0,0.0,1
+441,257-47 148 Drive,2.0,0.0,1
+442,259 Street,0.0,0.0,2
+443,26 Avenue,0.0,0.0,2
+444,26 Street,0.0,0.0,1
+445,26-27 College Point Boulevard,0.0,0.0,1
+446,26-50 94 Street,0.0,0.0,1
+447,26-58 Borough Place,0.0,0.0,1
+448,260 Street,0.0,0.0,2
+449,260-04 Hillside Avenue,0.0,0.0,1
+450,260-08 74 Avenue,0.0,0.0,1
+451,262 Street,0.0,0.0,1
+452,262-21 Hungry Harbor Road,0.0,0.0,1
+453,263-24 74 Avenue,0.0,0.0,1
+454,27 Avenue,2.0,0.0,3
+455,27 Street,4.0,0.0,5
+456,27-04 12 Street,0.0,0.0,1
+457,270-05 76 Avenue,0.0,0.0,1
+458,271 Street,0.0,0.0,1
+459,28 Avenue,8.0,0.0,7
+460,28-25 Utopia Parkway,0.0,0.0,1
+461,28-54 31 Street,0.0,0.0,1
+462,29 Street,0.0,0.0,4
+463,29-12 40 Avenue,0.0,0.0,1
+464,29-24 21 Avenue,2.0,0.0,1
+465,3 Avenue,60.0,0.0,70
+466,3 Place,2.0,0.0,1
+467,3 Street,0.0,0.0,3
+468,30 Avenue,4.0,0.0,4
+469,30 Drive,0.0,0.0,1
+470,30 Place,0.0,0.0,1
+471,30 Road,2.0,0.0,2
+472,30 Street,2.0,0.0,2
+473,30-35 77 Street,0.0,0.0,1
+474,30-35 79 Street,0.0,0.0,1
+475,30-38 90 Street,0.0,0.0,1
+476,30-42 35 Street,0.0,0.0,1
+477,30-58 34 Street,0.0,0.0,1
+478,30-62 Steinway Street,2.0,0.0,1
+479,30-94 Steinway Street,0.0,0.0,1
+480,31 Avenue,2.0,0.0,4
+481,31 Street,6.0,0.0,5
+482,31-01 20 Avenue,0.0,0.0,1
+483,31-05 49 Street,0.0,0.0,1
+484,31-08 76 Street,0.0,0.0,1
+485,31-22 College Point Boulevard,0.0,0.0,1
+486,31-28 Ditmars Boulevard,0.0,0.0,1
+487,31-50 Steinway Street,0.0,0.0,1
+488,32 Avenue,2.0,0.0,2
+489,32 Street,0.0,0.0,1
+490,32-30 70 Street,0.0,0.0,1
+491,32-34 Steinway Street,0.0,0.0,1
+492,32-36 100 Street,0.0,0.0,1
+493,3211A White Plains Road,0.0,0.0,1
+494,33 Avenue,0.0,0.0,1
+495,33 Street,0.0,0.0,2
+496,33-06 88 Street,0.0,0.0,1
+497,33-10 34 Avenue,0.0,0.0,1
+498,33-11 37 Avenue,0.0,0.0,1
+499,33-14 71 Street,0.0,0.0,1
+500,33-19 9 Street,0.0,0.0,1
+501,33-44 93 Street,0.0,0.0,1
+502,33-52 81 Street,0.0,0.0,1
+503,34 Avenue,4.0,0.0,2
+504,34 Street,2.0,0.0,2
+505,34-11 34 Avenue,0.0,0.0,1
+506,34-13 103 Street,0.0,0.0,1
+507,34-33 Junction Boulevard,0.0,0.0,1
+508,34-48 97 Street,0.0,0.0,1
+509,34-51 48 Street,0.0,0.0,1
+510,35 Avenue,8.0,0.0,6
+511,35 Street,2.0,0.0,5
+512,35-15 92 Street,0.0,0.0,1
+513,35-20 Leverich Street,0.0,0.0,1
+514,35-21 94 Street,0.0,0.0,1
+515,35-26 Francis Lewis Boulevard,0.0,0.0,1
+516,35-28 19 Avenue,0.0,0.0,1
+517,35-38 Junction Boulevard,2.0,0.0,1
+518,35-50 21 Street,2.0,0.0,1
+519,35-59 99 Street,0.0,0.0,1
+520,36 Avenue,2.0,0.0,3
+521,36 Street,2.0,0.0,1
+522,36-05 29 Street,0.0,0.0,1
+523,37 Avenue,6.0,0.0,11
+524,37 Street,2.0,0.0,2
+525,37-12 75 Street,2.0,0.0,1
+526,37-16 63 Street,0.0,0.0,1
+527,37-41 102 Street,0.0,0.0,1
+528,37-57 69 Street,0.0,0.0,1
+529,37-64 103 Street,0.0,0.0,1
+530,38 Avenue,0.0,0.0,3
+531,38 Street,2.0,0.0,5
+532,39 Avenue,4.0,0.0,3
+533,39 Drive,0.0,0.0,1
+534,39 Place,2.0,0.0,1
+535,39 Street,8.0,0.0,6
+536,39-11 51 Street,0.0,0.0,1
+537,39-12 108 Street,0.0,0.0,1
+538,39-12 50 Street,0.0,0.0,1
+539,39-15 44 Street,0.0,0.0,1
+540,39-39 47 Street,0.0,0.0,1
+541,4 Avenue,16.0,0.0,23
+542,4-76 47 Avenue,0.0,0.0,1
+543,40 Avenue,0.0,0.0,2
+544,40 Road,0.0,0.0,1
+545,40 Street,2.0,0.0,2
+546,40-05 Vernon Boulevard,2.0,0.0,1
+547,40-18 Berrian Boulevard,0.0,0.0,1
+548,40-18 Hampton Street,0.0,0.0,1
+549,40-18 Junction Boulevard,0.0,0.0,1
+550,40-20 Beach Channel Drive,0.0,0.0,1
+551,40-32 82 Street,0.0,0.0,1
+552,40-33 69 Street,0.0,0.0,1
+553,40-34 102 Street,0.0,0.0,1
+554,40-42 94 Street,0.0,0.0,1
+555,40-52 Hampton Street,0.0,0.0,1
+556,40-72 Case Street,0.0,0.0,1
+557,41 Avenue,0.0,0.0,2
+558,41 Road,0.0,0.0,1
+559,41 Street,2.0,0.0,5
+560,41-02 Broadway,0.0,0.0,1
+561,41-05 12 Street,0.0,0.0,1
+562,41-16 51 Street,0.0,0.0,1
+563,41-54 75 Street,0.0,0.0,1
+564,42 Avenue,0.0,0.0,1
+565,42 Road,0.0,0.0,1
+566,42 Street,4.0,0.0,4
+567,42-47 77 Street,0.0,0.0,1
+568,43 Avenue,4.0,0.0,3
+569,43 Street,2.0,0.0,3
+570,43-07 Astoria Boulevard,0.0,0.0,1
+571,43-47 Elbertson Street,0.0,0.0,1
+572,44 Avenue,0.0,0.0,1
+573,44 Drive,0.0,0.0,1
+574,44 Street,0.0,0.0,2
+575,45 Avenue,2.0,0.0,5
+576,45 Street,6.0,0.0,7
+577,45-13 46 Street,0.0,0.0,1
+578,45-42 Springfield Boulevard,0.0,0.0,1
+579,45-78 163 Street,2.0,0.0,1
+580,46 Avenue,0.0,0.0,1
+581,46 Street,2.0,0.0,2
+582,46-40 Francis Lewis Boulevard,0.0,0.0,1
+583,47 Avenue,0.0,0.0,2
+584,47 Street,0.0,0.0,2
+585,47-23 47 Street,0.0,0.0,1
+586,47-26 45 Street,0.0,0.0,1
+587,48 Avenue,2.0,0.0,4
+588,48 Street,6.0,0.0,6
+589,48-02 Browvale Lane,0.0,0.0,1
+590,49 Avenue,2.0,0.0,1
+591,49 Street,6.0,0.0,8
+592,5 Avenue,28.0,1.0,35
+593,5 Street,0.0,0.0,1
+594,50 Street,4.0,0.0,4
+595,50-10 48 Street,0.0,0.0,1
+596,50-11 Broadway,0.0,0.0,1
+597,50-16 31 Avenue,0.0,0.0,1
+598,50-35 Northern Boulevard,0.0,0.0,1
+599,50-61 40 Street,0.0,0.0,1
+600,51 Avenue,6.0,0.0,4
+601,51 Street,4.0,0.0,9
+602,51-08 111 Street,0.0,0.0,1
+603,51-32 Beach Channel Drive,0.0,0.0,1
+604,52 Street,0.0,0.0,1
+605,52-08 Grand Avenue,0.0,0.0,1
+606,52-19 82 Street,0.0,0.0,1
+607,53 Street,2.0,0.0,4
+608,53-15 58 Street,0.0,0.0,1
+609,53-80 65 Place,0.0,0.0,1
+610,530F Grand Street,0.0,0.0,1
+611,54 Road,2.0,0.0,1
+612,54 Street,0.0,0.0,1
+613,54-25 58 Street,2.0,0.0,1
+614,55 Avenue,0.0,0.0,2
+615,55 Street,0.0,0.0,1
+616,55-05 Beach Channel Drive,2.0,0.0,1
+617,55-15 260 Street,0.0,0.0,1
+618,553A Putnam Avenue,0.0,0.0,1
+619,56 Avenue,0.0,0.0,1
+620,56 Road,4.0,0.0,3
+621,56 Street,0.0,0.0,5
+622,56-15 55 Drive,0.0,0.0,1
+623,56-45 Main Street,0.0,0.0,1
+624,56-59 205 Street,0.0,0.0,1
+625,57 Avenue,0.0,0.0,1
+626,57 Street,4.0,0.0,3
+627,57-06 31 Avenue,2.0,0.0,1
+628,57-07 Shore Front Parkway,0.0,0.0,1
+629,57-27 Little Neck Parkway,2.0,0.0,1
+630,57-36 64 Street,0.0,0.0,1
+631,57-40 69 Lane,0.0,0.0,1
+632,57-48 49 Street,0.0,0.0,1
+633,58 Place,0.0,0.0,1
+634,58 Street,14.0,0.0,11
+635,58-25 Vancleef Street,0.0,0.0,1
+636,58-40 55 Drive,0.0,0.0,1
+637,58-50 43 Avenue,0.0,0.0,1
+638,59 Avenue,0.0,0.0,2
+639,59 Street,2.0,0.0,1
+640,59-04 Junction Boulevard,0.0,0.0,1
+641,59-16 Woodbine Street,2.0,0.0,1
+642,59-19 56 Street,0.0,0.0,1
+643,59-21 69 Lane,0.0,0.0,1
+644,59-35 Grove Street,0.0,0.0,1
+645,59-91 Maurice Avenue,0.0,0.0,1
+646,6 Avenue,6.0,0.0,10
+647,6 Street,4.0,0.0,3
+648,6-51 158 Street,0.0,0.0,1
+649,60 Lane,0.0,0.0,1
+650,60 Place,2.0,0.0,1
+651,60 Street,2.0,0.0,7
+652,60-01 Madison Street,0.0,0.0,1
+653,60-60 Fresh Pond Road,0.0,0.0,1
+654,61 Street,2.0,0.0,2
+655,61-17 68 Avenue,0.0,0.0,1
+656,61-23 190 Street,0.0,0.0,1
+657,61-25 Marathon Parkway,2.0,0.0,1
+658,61-35 Junction Boulevard,2.0,0.0,1
+659,61-42 Springfield Boulevard,0.0,0.0,1
+660,61-50 Springfield Boulevard,0.0,0.0,1
+661,61-51 Eliot Avenue,0.0,0.0,1
+662,61-54 Springfield Boulevard,0.0,0.0,1
+663,61-56 146 Street,0.0,0.0,1
+664,61-57 55 Street,0.0,0.0,1
+665,62 Avenue,0.0,0.0,2
+666,62 Drive,0.0,0.0,1
+667,62 Street,0.0,0.0,2
+668,62-02 Almeda Avenue,0.0,0.0,1
+669,62-23 64 Street,0.0,0.0,1
+670,62-34 Mount Olivet Crescent,0.0,0.0,1
+671,62-43 83 Street,0.0,0.0,1
+672,62-54 82 Street,0.0,0.0,1
+673,62-60 108 Street,0.0,0.0,1
+674,62-67 60 Place,2.0,0.0,1
+675,63 Drive,0.0,0.0,3
+676,63 Street,2.0,0.0,4
+677,63-08 255 Street,0.0,0.0,1
+678,63-88 Woodhaven Boulevard,0.0,0.0,1
+679,64 Avenue,4.0,0.0,3
+680,64 Street,2.0,0.0,6
+681,64-02 Catalpa Avenue,0.0,0.0,1
+682,64-18 Madison Street,0.0,0.0,1
+683,64-33 Springfield Boulevard,0.0,0.0,1
+684,64-42 Cooper Avenue,0.0,0.0,1
+685,65 Street,12.0,0.0,20
+686,65-10 Parsons Boulevard,0.0,0.0,1
+687,65-30 Kissena Boulevard,0.0,0.0,1
+688,66 Avenue,2.0,0.0,2
+689,66 Place,0.0,0.0,1
+690,66 Street,6.0,0.0,5
+691,66-26 Metropolitan Avenue,0.0,0.0,1
+692,67 Avenue,0.0,0.0,1
+693,67 Place,2.0,0.0,1
+694,67 Street,0.0,0.0,4
+695,67-12 136 Street,0.0,0.0,1
+696,67-15 I 192 Street,0.0,0.0,1
+697,67-25 188 Street,0.0,0.0,1
+698,67-78 152 Street,0.0,0.0,1
+699,68 Road,2.0,0.0,1
+700,68 Street,2.0,0.0,4
+701,68-02 Utopia Parkway,0.0,0.0,1
+702,68-07 60 Street,0.0,0.0,1
+703,69 Street,8.0,0.0,6
+704,69-07 Cooper Avenue,0.0,0.0,1
+705,69-26 185 Street,0.0,0.0,1
+706,69-35 Astoria Boulevard,0.0,0.0,1
+707,69-49 Park Drive East,2.0,0.0,1
+708,69-84 Eliot Avenue,2.0,0.0,1
+709,7 Avenue,27.0,0.0,35
+710,7 Avenue South,4.0,0.0,2
+711,7 Street,0.0,0.0,1
+712,70 Avenue,0.0,0.0,1
+713,70 Street,0.0,0.0,4
+714,71 Road,0.0,0.0,1
+715,71-02 Forest Avenue,0.0,0.0,1
+716,71-12 35 Avenue,2.0,0.0,1
+717,71-20 66 Street,0.0,0.0,1
+718,71-20 Juniper Boulevard South,0.0,0.0,1
+719,71-36 Myrtle Avenue,2.0,0.0,1
+720,71-43 Kissena Boulevard,0.0,0.0,1
+721,72 Avenue,0.0,0.0,1
+722,72 Road,0.0,0.0,1
+723,72 Street,2.0,0.0,5
+724,72-06 Northern Boulevard,2.0,0.0,1
+725,72-35 53 Road,0.0,0.0,1
+726,72-69 Kissena Boulevard,0.0,0.0,1
+727,73 Avenue,0.0,0.0,2
+728,73 Street,6.0,0.0,4
+729,73-01 37 Avenue,2.0,0.0,1
+730,73-11 67 Drive,0.0,0.0,1
+731,73-12 68 Road,2.0,0.0,1
+732,73-34 71 Place,0.0,0.0,1
+733,73-55 Grand Avenue,0.0,0.0,1
+734,73-70 260 Street,0.0,0.0,1
+735,74 Street,2.0,0.0,4
+736,74-07 Myrtle Avenue,2.0,0.0,1
+737,74-10 Commonwealth Boulevard,0.0,0.0,1
+738,74-10 Little Neck Parkway,0.0,0.0,1
+739,74-12 37 Avenue,2.0,0.0,1
+740,74-16 58 Avenue,0.0,0.0,1
+741,74-29 43 Avenue,0.0,0.0,1
+742,75 Avenue,4.0,0.0,2
+743,75 Street,2.0,0.0,2
+744,75-09 Woodhaven Boulevard,2.0,0.0,1
+745,75-27 62 Street,0.0,0.0,1
+746,76 Street,2.0,0.0,3
+747,76-02 Beach Channel Drive,2.0,0.0,1
+748,76-02 Northern Boulevard,0.0,0.0,1
+749,76-11 Northern Boulevard,0.0,0.0,1
+750,76-12 35 Avenue,0.0,0.0,1
+751,76-13 Roosevelt Avenue,0.0,0.0,1
+752,76-23 58 Road,2.0,0.0,1
+753,77 Avenue,0.0,0.0,1
+754,77 Street,0.0,0.0,5
+755,77-01 Cypress Avenue,0.0,0.0,1
+756,77-39 164 Street,0.0,0.0,1
+757,78 Avenue,0.0,0.0,1
+758,78 Street,2.0,0.0,5
+759,78-07 North Conduit Avenue,2.0,0.0,1
+760,78-12 Cypress Hills Street,0.0,0.0,1
+761,79 Lane,0.0,0.0,1
+762,79 Street,2.0,0.0,3
+763,79-05 149 Street,0.0,0.0,1
+764,79-18 Eliot Avenue,2.0,0.0,1
+765,8 Avenue,28.0,0.0,32
+766,8 Street,0.0,0.0,2
+767,80 Road,0.0,0.0,2
+768,80 Street,4.0,0.0,5
+769,80-04 Roosevelt Avenue,2.0,0.0,1
+770,80-07 Cypress Avenue,0.0,0.0,1
+771,80-10 Northern Boulevard,0.0,0.0,1
+772,80-27 246 Street,0.0,0.0,1
+773,80-30 Broadway,0.0,0.0,1
+774,80-40 Cypress Avenue,0.0,0.0,1
+775,80-41 Little Neck Parkway,0.0,0.0,1
+776,80-68 Springfield Boulevard,0.0,0.0,1
+777,81 Road,0.0,0.0,1
+778,81 Street,4.0,0.0,6
+779,81-04 Rockaway Beach Boulevard,2.0,0.0,1
+780,81-13 37 Avenue,0.0,0.0,1
+781,81-41 166 Street,0.0,0.0,1
+782,82 Avenue,0.0,0.0,1
+783,82 Road,2.0,0.0,1
+784,82 Street,8.0,0.0,11
+785,82-11 57 Avenue,2.0,0.0,1
+786,82-25 234 Street,0.0,0.0,1
+787,82-30 Parsons Boulevard,2.0,0.0,1
+788,82-44 63 Avenue,0.0,0.0,1
+789,82-68 164 Street,0.0,0.0,1
+790,82-72 Broadway,0.0,0.0,1
+791,83 Avenue,2.0,0.0,2
+792,83 Street,2.0,0.0,2
+793,83-12 35 Avenue,0.0,0.0,1
+794,83-20 Queens Boulevard,2.0,0.0,1
+795,84 Avenue,2.0,0.0,2
+796,84 Drive,0.0,0.0,1
+797,84 Street,4.0,0.0,7
+798,84-10 Main Street,0.0,0.0,1
+799,84-30 Broadway,0.0,0.0,1
+800,84-35 89 Street,0.0,0.0,1
+801,84-37 88 Street,0.0,0.0,1
+802,84-98 56 Avenue,0.0,0.0,1
+803,85 Avenue,2.0,0.0,4
+804,85 Road,0.0,0.0,2
+805,85 Street,2.0,0.0,7
+806,85-04 151 Street,0.0,0.0,1
+807,85-11 95 Avenue,0.0,0.0,1
+808,85-19 Commonwealth Boulevard,0.0,0.0,1
+809,85-23 Broadway,2.0,0.0,1
+810,85-43 Eliot Avenue,0.0,0.0,1
+811,86 Street,18.0,0.0,22
+812,86-05 25 Avenue,2.0,0.0,1
+813,86-07 Broadway,0.0,0.0,1
+814,86-18 249 Street,2.0,0.0,1
+815,86-34 Broadway,2.0,0.0,1
+816,86-34 Woodhaven Boulevard,0.0,0.0,1
+817,87 Road,0.0,0.0,2
+818,87 Street,2.0,0.0,2
+819,87-09 126 Street,0.0,0.0,1
+820,87-15 63 Avenue,2.0,0.0,1
+821,87-34 132 Street,0.0,0.0,1
+822,87-47 Myrtle Avenue,0.0,0.0,1
+823,87-48 129 Street,0.0,0.0,1
+824,87-52 124 Street,0.0,0.0,1
+825,88 Avenue,2.0,0.0,1
+826,88 Road,0.0,0.0,1
+827,88 Street,4.0,0.0,7
+828,88-01 Queens Boulevard,0.0,0.0,1
+829,88-27 208 Street,0.0,0.0,1
+830,88-28 196 Street,0.0,0.0,1
+831,88-40 173 Street,0.0,0.0,1
+832,88-56 Myrtle Avenue,0.0,0.0,1
+833,89 Avenue,4.0,0.0,3
+834,89 Street,0.0,0.0,1
+835,89-03 89 Avenue,0.0,0.0,1
+836,89-15 133 Avenue,0.0,0.0,1
+837,89-15 144 Street,0.0,0.0,1
+838,89-17 138 Place,0.0,0.0,1
+839,89-39 Elmhurst Avenue,2.0,0.0,1
+840,89-56 Springfield Boulevard,0.0,0.0,1
+841,89-70 163 Street,0.0,0.0,1
+842,89-77 211 Street,0.0,0.0,1
+843,9 Avenue,4.0,0.0,7
+844,9 Street,8.0,0.0,5
+845,90 Avenue,0.0,0.0,2
+846,90 Street,2.0,0.0,1
+847,90-01 Queens Boulevard,0.0,0.0,2
+848,90-02 55 Avenue,0.0,0.0,1
+849,90-06 103 Avenue,0.0,0.0,1
+850,90-08 161 Street,0.0,0.0,1
+851,90-10 150 Street,0.0,0.0,1
+852,90-10 Rockaway Beach Boulevard,0.0,0.0,1
+853,90-15 Queens Boulevard,2.0,0.0,1
+854,90-59 56 Avenue,0.0,0.0,1
+855,91 Avenue,2.0,0.0,3
+856,91 Road,0.0,0.0,1
+857,91 Street,2.0,0.0,2
+858,91-02 37 Avenue,0.0,0.0,1
+859,91-10 43 Avenue,0.0,0.0,1
+860,91-17 Rockaway Beach Boulevard,0.0,0.0,1
+861,91-25 187 Place,0.0,0.0,1
+862,92 Street,0.0,0.0,1
+863,92-06 173 Street,0.0,0.0,1
+864,92-16 176 Street,0.0,0.0,1
+865,92-28 217 Street,0.0,0.0,1
+866,93 Avenue,0.0,0.0,2
+867,93 Street,0.0,0.0,1
+868,93-02 Atlantic Avenue,2.0,0.0,1
+869,93-12 175 Street,0.0,0.0,1
+870,93-29 Francis Lewis Boulevard,0.0,0.0,1
+871,94 Avenue,2.0,0.0,1
+872,94 Street,2.0,0.0,2
+873,94-09 63 Drive,0.0,0.0,1
+874,94-10 80 Street,0.0,0.0,1
+875,94-15 216 Street,0.0,0.0,1
+876,94-31 44 Avenue,0.0,0.0,1
+877,94-40 215 Place,0.0,0.0,1
+878,94-52 43 Avenue,0.0,0.0,1
+879,94-54 43 Avenue,0.0,0.0,1
+880,94-57 43 Avenue,0.0,0.0,1
+881,95 Avenue,4.0,0.0,6
+882,95 Street,2.0,0.0,3
+883,95-23 Remington Street,0.0,0.0,1
+884,95-29 104 Street,0.0,0.0,1
+885,95-32 Roosevelt Avenue,0.0,0.0,1
+886,95-57 110 Street,0.0,0.0,1
+887,96 Street,0.0,0.0,2
+888,96-18 91 Avenue,0.0,0.0,1
+889,97 Avenue,2.0,0.0,4
+890,97 Street,2.0,0.0,4
+891,97-06 Northern Boulevard,0.0,0.0,1
+892,97-07 Rockaway Boulevard,0.0,0.0,1
+893,97-10 Queens Boulevard,0.0,0.0,1
+894,97-17 Rockaway Boulevard,0.0,0.0,1
+895,97-28 99 Street,0.0,0.0,1
+896,98 Place,0.0,0.0,1
+897,98 Street,0.0,0.0,1
+898,98-15 Horace Harding Expressway,0.0,0.0,1
+899,98-25 Horace Harding Expressway,0.0,0.0,1
+900,98-30 57 Avenue,2.0,0.0,1
+901,99 Avenue,2.0,0.0,2
+902,99 Street,0.0,0.0,1
+903,99-02 37 Avenue,0.0,0.0,1
+904,99-08 32 Avenue,0.0,0.0,1
+905,99-10 37 Avenue,0.0,0.0,1
+906,Abingdon Avenue,0.0,0.0,1
+907,Academy Street,0.0,0.0,2
+908,Adams Street,2.0,0.0,3
+909,Adee Avenue,2.0,0.0,4
+910,Adelphi Street,0.0,0.0,1
+911,Alabama Avenue,2.0,0.0,3
+912,Alaska Street,0.0,0.0,1
+913,Albany Avenue,8.0,0.0,14
+914,Albany Crescent,0.0,0.0,1
+915,Alderton Street,2.0,0.0,1
+916,Aldus Street,0.0,0.0,2
+917,Alexander Avenue,0.0,0.0,1
+918,Allen Avenue,2.0,0.0,1
+919,Allen Street,6.0,0.0,3
+920,Allendale Street,2.0,0.0,1
+921,Allerton Avenue,2.0,0.0,9
+922,Amboy Road,4.0,0.0,4
+923,Amboy Street,0.0,0.0,3
+924,Amsterdam Avenue,10.0,0.0,24
+925,Anderson Avenue,0.0,0.0,1
+926,Andrews Avenue,0.0,0.0,1
+927,Ann Street,2.0,0.0,2
+928,Annadale Road,2.0,0.0,1
+929,Apollo Street,0.0,0.0,1
+930,Aqueduct Avenue,0.0,0.0,1
+931,Archer Avenue,2.0,0.0,3
+932,Arden Avenue,6.0,0.0,3
+933,Arlington Avenue,2.0,0.0,1
+934,Armstrong Avenue,0.0,0.0,1
+935,Arnow Avenue,0.0,0.0,1
+936,Arthur Avenue,0.0,0.0,4
+937,Arthur Kill Road,2.0,0.0,7
+938,Ascan Avenue,0.0,0.0,1
+939,Ashford Street,0.0,0.0,2
+940,Ashland Place,0.0,0.0,1
+941,Aske Street,0.0,0.0,1
+942,Astor Avenue,2.0,0.0,1
+943,Astor Place,0.0,0.0,1
+944,Astoria Boulevard,2.0,0.0,6
+945,Astoria Park South,2.0,0.0,1
+946,Atkins Avenue,0.0,0.0,3
+947,Atlantic Avenue,72.0,1.0,82
+948,Audubon Avenue,4.0,0.0,5
+949,Aurelia Court,0.0,0.0,1
+950,Austin Street,0.0,0.0,1
+951,Autumn Avenue,0.0,2.0,3
+952,Avenue,0.0,0.0,1
+953,Avenue A,2.0,0.0,1
+954,Avenue B,2.0,0.0,3
+955,Avenue C,2.0,0.0,6
+956,Avenue D,8.0,0.0,8
+957,Avenue H,4.0,0.0,7
+958,Avenue I,0.0,0.0,5
+959,Avenue J,4.0,0.0,11
+960,Avenue K,10.0,0.0,15
+961,Avenue L,12.0,0.0,8
+962,Avenue M,4.0,1.0,8
+963,Avenue N,4.0,0.0,6
+964,Avenue O,2.0,0.0,4
+965,Avenue Of The Americas,11.0,0.0,14
+966,Avenue P,6.0,0.0,10
+967,Avenue R,2.0,0.0,2
+968,Avenue S,2.0,0.0,1
+969,Avenue T,6.0,0.0,6
+970,Avenue U,12.0,0.0,9
+971,Avenue V,4.0,0.0,7
+972,Avenue W,2.0,0.0,2
+973,Avenue X,6.0,0.0,5
+974,Avenue Y,2.0,0.0,3
+975,Avenue Z,4.0,0.0,3
+976,Avery Avenue,0.0,0.0,1
+977,Azalea Court,0.0,0.0,1
+978,Bailey Avenue,0.0,0.0,2
+979,Bainbridge Avenue,0.0,0.0,2
+980,Bainbridge Street,0.0,0.0,1
+981,Baisley Boulevard,0.0,0.0,3
+982,Balcom Avenue,2.0,0.0,1
+983,Baltic Street,0.0,0.0,2
+984,Baltimore Street,0.0,0.0,1
+985,Bank Street,2.0,0.0,1
+986,Barbey Street,2.0,0.0,3
+987,Barclay Street,0.0,0.0,2
+988,Bard Avenue,0.0,0.0,2
+989,Barker Avenue,4.0,0.0,2
+990,Barker Street,0.0,0.0,1
+991,Barnes Avenue,4.0,0.0,4
+992,Barnett Avenue,0.0,0.0,1
+993,Barretto Street,0.0,0.0,2
+994,Bartow Avenue,6.0,0.0,7
+995,Bascom Place,0.0,0.0,1
+996,Batchelder Street,0.0,0.0,1
+997,Bath Avenue,0.0,0.0,2
+998,Bathgate Avenue,0.0,0.0,4
+999,Baxter Avenue,0.0,0.0,1
+1000,Baxter Street,0.0,0.0,1
+1001,Bay 16 Street,0.0,0.0,2
+1002,Bay 28 Street,0.0,0.0,1
+1003,Bay 32 Street,0.0,0.0,1
+1004,Bay 35 Street,0.0,0.0,1
+1005,Bay 37 Street,0.0,0.0,2
+1006,Bay 38 Street,0.0,0.0,1
+1007,Bay 52 Street,2.0,0.0,1
+1008,Bay 8 Street,0.0,0.0,5
+1009,Bay Parkway,4.0,0.0,9
+1010,Bay Ridge Avenue,0.0,0.0,5
+1011,Bay Ridge Parkway,2.0,0.0,5
+1012,Bay Street,2.0,0.0,6
+1013,Bay View Avenue,2.0,0.0,1
+1014,Bayard Street,0.0,0.0,1
+1015,Baychester Avenue,6.0,0.0,9
+1016,Beach 109 Street,0.0,0.0,1
+1017,Beach 120 Street,0.0,0.0,1
+1018,Beach 19 Street,0.0,0.0,1
+1019,Beach 221 Street,0.0,0.0,1
+1020,Beach 27 Street,0.0,0.0,2
+1021,Beach 30 Street,0.0,0.0,1
+1022,Beach 32 Street,0.0,0.0,2
+1023,Beach 35 Street,0.0,0.0,1
+1024,Beach 37 Street,2.0,0.0,1
+1025,Beach 38 Street,2.0,0.0,1
+1026,Beach 39 Street,0.0,0.0,1
+1027,Beach 40 Street,0.0,0.0,1
+1028,Beach 44 Street,0.0,0.0,1
+1029,Beach 53 Street,0.0,0.0,1
+1030,Beach 55 Street,0.0,0.0,1
+1031,Beach 56 Place,2.0,0.0,1
+1032,Beach 58 Street,0.0,0.0,1
+1033,Beach 62 Street,0.0,0.0,2
+1034,Beach 63 Street,0.0,0.0,1
+1035,Beach 73 Street,4.0,0.0,2
+1036,Beach 80 Street,0.0,0.0,1
+1037,Beach 88 Street,0.0,0.0,1
+1038,Beach Avenue,0.0,0.0,4
+1039,Beach Channel Drive,6.0,0.0,7
+1040,Beaumont Avenue,0.0,0.0,3
+1041,Beaver Street,0.0,0.0,2
+1042,Bedell Street,2.0,0.0,1
+1043,Bedford Avenue,42.0,0.0,32
+1044,Belknap Street,0.0,0.0,1
+1045,Bell Boulevard,6.0,0.0,8
+1046,Bellamy Loop,0.0,0.0,1
+1047,Belmont Avenue,2.0,0.0,6
+1048,Belt Parkway,134.0,0.0,168
+1049,Bement Avenue,2.0,0.0,2
+1050,Bennett Avenue,2.0,0.0,2
+1051,Bennett Street,0.0,0.0,1
+1052,Benson Avenue,2.0,0.0,3
+1053,Bergen Avenue,0.0,0.0,1
+1054,Bergen Street,0.0,0.0,3
+1055,Berkeley Place,0.0,0.0,1
+1056,Berriman Street,0.0,0.0,1
+1057,Bethel Loop,0.0,0.0,1
+1058,Bethune Street,0.0,0.0,1
+1059,Beverley Road,4.0,0.0,6
+1060,Birchall Avenue,2.0,0.0,1
+1061,Blake Avenue,10.0,0.0,8
+1062,Bleecker Street,8.0,0.0,9
+1063,Bloomingdale Road,0.0,0.0,3
+1064,Boerum Place,4.0,0.0,3
+1065,Boerum Street,2.0,0.0,2
+1066,Boller Avenue,2.0,0.0,1
+1067,Bolton Street,0.0,0.0,2
+1068,Bond Street,0.0,0.0,1
+1069,Boody Street,2.0,0.0,1
+1070,Boone Avenue,0.0,0.0,2
+1071,Booth Memorial Avenue,2.0,0.0,1
+1072,Borden Avenue,4.0,0.0,4
+1073,Borinquen Place,2.0,0.0,1
+1074,Boston Road,14.0,0.0,28
+1075,Bosworth Street,0.0,0.0,1
+1076,Bowen Street,2.0,0.0,2
+1077,Bowery,6.0,0.0,7
+1078,Bowne Street,6.0,0.0,4
+1079,Boyd Avenue,0.0,0.0,1
+1080,Boyland Street,4.0,0.0,4
+1081,Boynton Avenue,0.0,0.0,3
+1082,Braddock Avenue,2.0,0.0,1
+1083,Bradford Street,2.0,0.0,2
+1084,Bradhurst Avenue,2.0,0.0,2
+1085,Bradley Avenue,0.0,0.0,1
+1086,Brewer Boulevard,10.0,0.0,10
+1087,Bridge Street,0.0,0.0,1
+1088,Bridgewater Street,0.0,0.0,1
+1089,Briggs Avenue,0.0,0.0,3
+1090,Brighton 1 Street,2.0,0.0,1
+1091,Brighton 13 Street,0.0,0.0,1
+1092,Brighton 14 Street,0.0,0.0,1
+1093,Brighton 3 Street,0.0,0.0,1
+1094,Brighton 4 Street,0.0,0.0,1
+1095,Brighton Avenue,0.0,0.0,1
+1096,Brightwater Court,0.0,0.0,2
+1097,Broad Street,2.0,0.0,1
+1098,Broadway,99.0,0.0,99
+1099,Bronx Boulevard,2.0,0.0,6
+1100,Bronx Park East,0.0,0.0,5
+1101,Bronx Park South,0.0,0.0,2
+1102,Bronx River Avenue,4.0,0.0,6
+1103,Bronx River Parkway,34.0,0.0,30
+1104,Bronxdale Avenue,2.0,0.0,3
+1105,Bronxwood Avenue,4.0,0.0,6
+1106,Brook Avenue,4.0,0.0,5
+1107,Brooklyn Avenue,6.0,0.0,15
+1108,Brooklyn Qns Expressway,4.0,0.0,3
+1109,Brooklyn Queens Expressway,62.0,0.0,90
+1110,Brookville Boulevard,4.0,0.0,9
+1111,Broome Street,0.0,0.0,3
+1112,Bruckner Avenue,0.0,0.0,1
+1113,Bruckner Boulevard,38.0,4.0,56
+1114,Bruckner Expressway,30.0,0.0,42
+1115,Bruner Avenue,0.0,0.0,3
+1116,Brunswick Avenue,0.0,0.0,2
+1117,Brush Avenue,2.0,0.0,2
+1118,Bryant Avenue,0.0,0.0,5
+1119,Buel Avenue,4.0,0.0,2
+1120,Buffalo Avenue,2.0,0.0,5
+1121,Buhre Avenue,0.0,0.0,1
+1122,Bullard Avenue,0.0,0.0,1
+1123,Burbank Avenue,2.0,0.0,2
+1124,Burgher Avenue,0.0,0.0,1
+1125,Burke Avenue,4.0,0.0,5
+1126,Burnett Street,0.0,0.0,1
+1127,Burnside Avenue,0.0,0.0,1
+1128,Bushwick Avenue,22.0,0.0,32
+1129,Bussing Avenue,0.0,0.0,3
+1130,Cabrini Boulevard,0.0,0.0,3
+1131,Cadman Plaza West,0.0,0.0,1
+1132,Calamus Avenue,0.0,0.0,1
+1133,Calyer Street,0.0,0.0,1
+1134,Cambreleng Avenue,0.0,0.0,3
+1135,Cameron Place,0.0,0.0,1
+1136,Campus Place,0.0,0.0,1
+1137,Canal Street,4.0,0.0,9
+1138,Canarsie Road,0.0,0.0,1
+1139,Capodanno Boulevard,0.0,0.0,1
+1140,Carlton Avenue,2.0,0.0,4
+1141,Caroline Street,0.0,0.0,1
+1142,Carpenter Avenue,0.0,0.0,3
+1143,Carroll Street,0.0,0.0,3
+1144,Carter Avenue,0.0,0.0,1
+1145,Cary Avenue,0.0,0.0,1
+1146,Cassidy Place,2.0,0.0,1
+1147,Castle Hill Avenue,10.0,0.0,7
+1148,Castleton Avenue,2.0,0.0,5
+1149,Catalpa Avenue,0.0,0.0,1
+1150,Cathedral Parkway,0.0,0.0,1
+1151,Caton Avenue,10.0,0.0,8
+1152,Cauldwell Avenue,0.0,0.0,5
+1153,Cebra Avenue,0.0,0.0,2
+1154,Cedar Avenue,0.0,0.0,2
+1155,Cedar Street,0.0,0.0,2
+1156,Central Avenue,14.0,0.0,11
+1157,Central Park South,0.0,0.0,1
+1158,Central Park West,4.0,0.0,6
+1159,Centre Street,0.0,0.0,2
+1160,Chambers Street,2.0,0.0,3
+1161,Chase Court,0.0,0.0,1
+1162,Chauncey Street,4.0,0.0,5
+1163,Cheever Place,0.0,0.0,1
+1164,Cherry Avenue,0.0,0.0,1
+1165,Chestnut Avenue,2.0,0.0,2
+1166,Chisholm Street,0.0,0.0,1
+1167,Christie Avenue,0.0,0.0,1
+1168,Chrystie Street,6.0,0.0,5
+1169,Church Avenue,16.0,0.0,18
+1170,Church Street,4.0,0.0,3
+1171,Claremont Avenue,0.0,0.0,1
+1172,Claremont Parkway,0.0,0.0,3
+1173,Clarendon Road,10.0,0.0,10
+1174,Clark Street,0.0,0.0,1
+1175,Clarke Avenue,2.0,0.0,2
+1176,Clarkson Avenue,10.0,0.0,10
+1177,Classon Avenue,4.0,0.0,7
+1178,Clay Avenue,4.0,0.0,3
+1179,Clearview Expressway,10.0,0.0,15
+1180,Clermont Avenue,0.0,0.0,1
+1181,Cleveland Street,0.0,0.0,3
+1182,Clifton Place,2.0,0.0,1
+1183,Clinton Avenue,2.0,0.0,2
+1184,Clinton Place,2.0,0.0,2
+1185,Clinton Street,2.0,0.0,4
+1186,Clove Road,4.0,0.0,5
+1187,Clymer Street,0.0,0.0,1
+1188,Colden Avenue,0.0,0.0,1
+1189,Colden Street,0.0,0.0,1
+1190,College Place,0.0,0.0,1
+1191,College Point Boulevard,6.0,0.0,10
+1192,Collfield Avenue,0.0,0.0,1
+1193,Colonial Avenue,0.0,0.0,1
+1194,Columbia Street,6.0,0.0,4
+1195,Columbus Avenue,2.0,0.0,6
+1196,Commerce Street,0.0,0.0,1
+1197,Commonwlth Avenue,0.0,0.0,2
+1198,Concord Avenue,0.0,0.0,1
+1199,Conduit Boulevard,2.0,0.0,5
+1200,Coney Island Avenue,14.0,0.0,18
+1201,Conklin Avenue,2.0,0.0,2
+1202,Conselyea Street,0.0,0.0,1
+1203,Continental Avenue,0.0,0.0,1
+1204,Convent Avenue,2.0,0.0,3
+1205,Cook Street,0.0,0.0,1
+1206,Coop City Boulevard,2.0,0.0,3
+1207,Cooper Avenue,2.0,0.0,3
+1208,Cooper Square,0.0,0.0,1
+1209,Cooper Street,0.0,0.0,2
+1210,Cornaga Avenue,2.0,0.0,5
+1211,Corona Avenue,4.0,0.0,3
+1212,Corson Avenue,0.0,0.0,1
+1213,Cortelyou Road,6.0,0.0,12
+1214,Cortlandt Street,0.0,0.0,2
+1215,Coster Street,0.0,0.0,1
+1216,Country Club Road,0.0,0.0,1
+1217,Court Street,2.0,0.0,2
+1218,Courtlandt Avenue,2.0,0.0,3
+1219,Covert Street,0.0,0.0,1
+1220,Cozine Avenue,4.0,0.0,5
+1221,Cranford Avenue,0.0,0.0,1
+1222,Crescent Avenue,0.0,0.0,2
+1223,Crescent Street,8.0,0.0,8
+1224,Creston Avenue,0.0,0.0,1
+1225,Crocheron Avenue,0.0,0.0,1
+1226,Croes Avenue,4.0,0.0,3
+1227,Cromwell Avenue,2.0,0.0,3
+1228,Cropsey Avenue,10.0,0.0,10
+1229,Crosby Street,0.0,0.0,1
+1230,Cross Bay Boulevard,4.0,0.0,11
+1231,Cross Bronx Expressway,10.0,0.0,16
+1232,Cross Bronx Expy,54.0,0.0,82
+1233,Cross Island Parkway,50.0,0.0,56
+1234,Crotona Avenue,6.0,0.0,8
+1235,Crotona Park East,2.0,0.0,1
+1236,Crotona Park North,0.0,0.0,1
+1237,Crown Street,2.0,0.0,5
+1238,Cypress Avenue,2.0,0.0,5
+1239,Cypress Hill Street,0.0,0.0,1
+1240,Cypress Hills Street,0.0,0.0,2
+1241,Dahill Road,2.0,0.0,2
+1242,Daly Avenue,2.0,0.0,2
+1243,Dank Court,0.0,0.0,1
+1244,Davidson Avenue,2.0,0.0,4
+1245,Davis Avenue,0.0,0.0,2
+1246,De Graw Street,2.0,0.0,3
+1247,De Kalb Avenue,16.0,0.0,12
+1248,De Witt Avenue,2.0,0.0,1
+1249,Dean Street,2.0,0.0,5
+1250,Debevoise Street,0.0,0.0,1
+1251,Decatur Avenue,0.0,0.0,3
+1252,Decatur Street,0.0,0.0,2
+1253,Delancey Street,4.0,0.0,9
+1254,Devoe Avenue,0.0,0.0,2
+1255,Devoe Street,0.0,0.0,1
+1256,Dewitt Place,0.0,0.0,1
+1257,Dickens Street,0.0,0.0,3
+1258,Digney Avenue,2.0,0.0,1
+1259,Dinsmore Avenue,0.0,0.0,1
+1260,Ditmars Boulevard,2.0,0.0,3
+1261,Ditmas Avenue,4.0,0.0,5
+1262,Division Avenue,2.0,0.0,1
+1263,Division Street,0.0,0.0,1
+1264,Dorchester Road,0.0,0.0,1
+1265,Doscher Street,0.0,0.0,1
+1266,Downing Street,0.0,0.0,1
+1267,Driggs Avenue,2.0,0.0,2
+1268,Drumgoole Road East,0.0,0.0,1
+1269,Drumgoole Road West,2.0,0.0,1
+1270,Dumont Avenue,2.0,0.0,5
+1271,Dunkirk Drive,2.0,0.0,1
+1272,Dunkirk Street,0.0,0.0,1
+1273,Dyckman Street,2.0,0.0,4
+1274,Dyre Avenue,2.0,0.0,1
+1275,East 10 Street,2.0,0.0,3
+1276,East 100 Street,0.0,0.0,2
+1277,East 101 Street,0.0,0.0,3
+1278,East 102 Street,6.0,0.0,10
+1279,East 103 Street,0.0,0.0,2
+1280,East 104 Street,2.0,0.0,3
+1281,East 105 Street,0.0,0.0,3
+1282,East 106 Street,4.0,0.0,2
+1283,East 107 Street,0.0,0.0,2
+1284,East 108 Street,2.0,0.0,3
+1285,East 109 Street,0.0,0.0,3
+1286,East 11 Street,2.0,0.0,4
+1287,East 110 Street,4.0,0.0,4
+1288,East 111 Street,0.0,0.0,1
+1289,East 112 Street,4.0,0.0,4
+1290,East 116 Street,4.0,0.0,4
+1291,East 118 Street,2.0,0.0,2
+1292,East 119 Street,2.0,0.0,1
+1293,East 12 Street,0.0,0.0,7
+1294,East 120 Street,2.0,0.0,3
+1295,East 123 Street,2.0,0.0,1
+1296,East 125 Street,8.0,0.0,10
+1297,East 126 Street,0.0,0.0,1
+1298,East 127 Street,2.0,0.0,1
+1299,East 128 Street,0.0,0.0,2
+1300,East 13 Street,4.0,0.0,4
+1301,East 132 Street,4.0,0.0,5
+1302,East 134 Street,4.0,0.0,6
+1303,East 135 Street,6.0,0.0,9
+1304,East 137 Street,2.0,0.0,1
+1305,East 138 Street,18.0,0.0,16
+1306,East 139 Street,0.0,0.0,3
+1307,East 14 Street,4.0,0.0,6
+1308,East 140 Street,2.0,0.0,5
+1309,East 141 Street,2.0,0.0,1
+1310,East 142 Street,0.0,0.0,2
+1311,East 143 Street,0.0,0.0,4
+1312,East 144 Street,2.0,0.0,3
+1313,East 145 Street,2.0,0.0,2
+1314,East 146 Street,0.0,0.0,1
+1315,East 147 Street,0.0,0.0,1
+1316,East 149 Street,18.0,0.0,18
+1317,East 15 Street,4.0,0.0,4
+1318,East 150 Street,4.0,0.0,3
+1319,East 151 Street,0.0,0.0,3
+1320,East 152 Street,2.0,0.0,2
+1321,East 153 Street,0.0,0.0,1
+1322,East 154 Street,0.0,0.0,1
+1323,East 156 Street,4.0,0.0,8
+1324,East 157 Street,0.0,0.0,1
+1325,East 158 Street,2.0,0.0,6
+1326,East 159 Street,2.0,0.0,3
+1327,East 16 Street,0.0,0.0,1
+1328,East 160 Street,4.0,0.0,4
+1329,East 161 Street,6.0,0.0,12
+1330,East 162 Street,0.0,0.0,3
+1331,East 163 Street,10.0,0.0,9
+1332,East 164 Street,2.0,0.0,3
+1333,East 165 Street,2.0,0.0,8
+1334,East 167 Street,6.0,0.0,14
+1335,East 168 Street,0.0,0.0,4
+1336,East 169 Street,8.0,0.0,8
+1337,East 17 Street,4.0,0.0,2
+1338,East 170 Street,2.0,0.0,6
+1339,East 171 Street,0.0,0.0,2
+1340,East 172 Street,2.0,0.0,5
+1341,East 173 Street,2.0,0.0,8
+1342,East 174 Street,6.0,0.0,9
+1343,East 175 Street,4.0,0.0,8
+1344,East 176 Street,0.0,0.0,3
+1345,East 178 Street,2.0,0.0,6
+1346,East 179 Street,0.0,0.0,6
+1347,East 18 Street,0.0,0.0,4
+1348,East 180 Street,6.0,0.0,9
+1349,East 181 Street,0.0,0.0,3
+1350,East 182 Street,4.0,0.0,7
+1351,East 183 Street,2.0,0.0,3
+1352,East 184 Street,0.0,0.0,2
+1353,East 185 Street,0.0,0.0,1
+1354,East 187 Street,0.0,0.0,2
+1355,East 188 Street,6.0,0.0,6
+1356,East 189 Street,0.0,0.0,2
+1357,East 19 Street,2.0,0.0,7
+1358,East 190 Street,0.0,0.0,1
+1359,East 191 Street,2.0,0.0,1
+1360,East 193 Street,0.0,0.0,1
+1361,East 194 Street,2.0,0.0,1
+1362,East 196 Street,4.0,0.0,4
+1363,East 198 Street,2.0,0.0,2
+1364,East 199 Street,0.0,0.0,1
+1365,East 2 Street,4.0,0.0,6
+1366,East 20 Street,4.0,0.0,3
+1367,East 201 Street,2.0,0.0,1
+1368,East 202 Street,2.0,0.0,1
+1369,East 204 Street,0.0,0.0,4
+1370,East 205 Street,0.0,0.0,2
+1371,East 21 Street,0.0,0.0,5
+1372,East 211 Street,0.0,1.0,2
+1373,East 213 Street,0.0,0.0,2
+1374,East 214 Street,0.0,0.0,1
+1375,East 215 Street,0.0,0.0,3
+1376,East 217 Street,2.0,0.0,1
+1377,East 218 Street,0.0,0.0,1
+1378,East 22 Street,6.0,0.0,6
+1379,East 220 Street,0.0,0.0,2
+1380,East 221 Street,0.0,0.0,1
+1381,East 222 Street,4.0,0.0,3
+1382,East 223 Street,2.0,0.0,3
+1383,East 225 Street,2.0,0.0,2
+1384,East 226 Street,0.0,0.0,2
+1385,East 228 Street,0.0,0.0,1
+1386,East 229 Street,2.0,0.0,2
+1387,East 23 Street,8.0,0.0,7
+1388,East 230 Street,0.0,0.0,2
+1389,East 231 Street,0.0,0.0,1
+1390,East 233 Street,8.0,0.0,18
+1391,East 235 Street,0.0,0.0,2
+1392,East 236 Street,0.0,0.0,3
+1393,East 237 Street,0.0,0.0,1
+1394,East 239 Street,4.0,0.0,3
+1395,East 24 Street,0.0,0.0,1
+1396,East 240 Street,2.0,0.0,2
+1397,East 241 Street,4.0,0.0,2
+1398,East 242 Street,0.0,0.0,1
+1399,East 25 Street,0.0,0.0,2
+1400,East 26 Street,2.0,0.0,2
+1401,East 27 Street,2.0,0.0,3
+1402,East 28 Street,0.0,0.0,2
+1403,East 29 Street,6.0,0.0,4
+1404,East 3 Street,0.0,0.0,4
+1405,East 30 Street,2.0,0.0,3
+1406,East 31 Street,0.0,0.0,2
+1407,East 32 Street,0.0,0.0,5
+1408,East 33 Street,2.0,0.0,1
+1409,East 34 Street,6.0,0.0,8
+1410,East 35 Street,4.0,0.0,8
+1411,East 36 Street,2.0,0.0,4
+1412,East 37 Street,0.0,0.0,2
+1413,East 38 Street,2.0,0.0,5
+1414,East 39 Street,0.0,0.0,5
+1415,East 40 Street,4.0,0.0,3
+1416,East 41 Street,0.0,0.0,1
+1417,East 42 Street,4.0,0.0,4
+1418,East 43 Street,2.0,0.0,2
+1419,East 44 Street,2.0,0.0,1
+1420,East 45 Street,2.0,0.0,3
+1421,East 46 Street,4.0,0.0,2
+1422,East 47 Street,2.0,0.0,4
+1423,East 48 Street,2.0,0.0,1
+1424,East 49 Street,0.0,0.0,3
+1425,East 5 Street,0.0,0.0,2
+1426,East 51 Street,0.0,0.0,9
+1427,East 52 Street,2.0,0.0,3
+1428,East 53 Street,8.0,0.0,6
+1429,East 54 Street,6.0,0.0,5
+1430,East 55 Street,0.0,0.0,3
+1431,East 56 Street,2.0,0.0,6
+1432,East 57 Street,10.0,0.0,9
+1433,East 58 Street,2.0,0.0,1
+1434,East 59 Street,2.0,0.0,5
+1435,East 6 Street,0.0,0.0,1
+1436,East 61 Street,0.0,0.0,5
+1437,East 62 Street,0.0,0.0,1
+1438,East 63 Street,2.0,0.0,2
+1439,East 64 Street,2.0,0.0,1
+1440,East 65 Street,2.0,0.0,3
+1441,East 66 Street,2.0,0.0,4
+1442,East 68 Street,0.0,0.0,3
+1443,East 69 Street,2.0,0.0,1
+1444,East 7 Street,2.0,0.0,2
+1445,East 70 Street,2.0,0.0,2
+1446,East 71 Street,0.0,0.0,2
+1447,East 72 Street,2.0,0.0,3
+1448,East 73 Street,2.0,0.0,3
+1449,East 74 Street,0.0,0.0,2
+1450,East 75 Street,2.0,0.0,2
+1451,East 77 Street,4.0,0.0,2
+1452,East 78 Street,0.0,0.0,2
+1453,East 79 Street,4.0,0.0,5
+1454,East 8 Street,0.0,0.0,2
+1455,East 80 Street,4.0,0.0,5
+1456,East 81 Street,4.0,0.0,4
+1457,East 82 Street,2.0,0.0,2
+1458,East 83 Street,0.0,0.0,4
+1459,East 84 Street,0.0,0.0,1
+1460,East 85 Street,0.0,0.0,2
+1461,East 86 Street,4.0,0.0,4
+1462,East 87 Street,2.0,0.0,2
+1463,East 88 Street,0.0,0.0,5
+1464,East 89 Street,2.0,0.0,1
+1465,East 9 Road,0.0,0.0,1
+1466,East 9 Street,2.0,0.0,5
+1467,East 91 Street,2.0,0.0,2
+1468,East 92 Street,2.0,0.0,5
+1469,East 93 Street,0.0,0.0,4
+1470,East 94 Street,0.0,0.0,5
+1471,East 95 Street,0.0,0.0,3
+1472,East 96 Street,2.0,0.0,10
+1473,East 97 Street,2.0,0.0,3
+1474,East 98 Street,12.0,0.0,10
+1475,East Avenue,2.0,0.0,1
+1476,East Burnside Avenue,2.0,0.0,2
+1477,East Drive,3.0,0.0,1
+1478,East End Avenue,0.0,0.0,1
+1479,East Fordham Road,14.0,0.0,15
+1480,East Gun Hill Road,26.0,1.0,21
+1481,East Houston Street,12.0,0.0,10
+1482,East Kingsbridge Road,0.0,0.0,1
+1483,East Mosholu Parkway South,0.0,0.0,3
+1484,East Mount Eden Avenue,0.0,0.0,3
+1485,East New York Avenue,12.0,0.0,12
+1486,East Tremont Avenue,46.0,0.0,41
+1487,Eastchester Road,4.0,0.0,4
+1488,Eastern Parkway,26.0,0.0,27
+1489,Eckford Street,0.0,0.0,3
+1490,Edenwald Avenue,4.0,0.0,2
+1491,Edgecombe Avenue,6.0,0.0,7
+1492,Edgegrove Avenue,0.0,0.0,1
+1493,Edgerton Boulevard,2.0,0.0,1
+1494,Edgewater Road,6.0,0.0,4
+1495,Effingham Avenue,0.0,0.0,1
+1496,Egbert Avenue,2.0,0.0,1
+1497,Elder Avenue,0.0,0.0,3
+1498,Elderts Lane,0.0,0.0,1
+1499,Eldridge Street,0.0,0.0,1
+1500,Eleanor Place,0.0,0.0,1
+1501,Eliot Avenue,8.0,0.0,4
+1502,Elizabeth Street,0.0,0.0,2
+1503,Elkhart Street,0.0,0.0,2
+1504,Ellery Street,0.0,0.0,1
+1505,Elliot Place,0.0,0.0,2
+1506,Elm Place,0.0,0.0,2
+1507,Elmhurst Avenue,0.0,0.0,2
+1508,Elmwood Avenue,0.0,0.0,1
+1509,Elton Avenue,0.0,0.0,3
+1510,Elton Street,0.0,0.0,3
+1511,Emmons Avenue,0.0,0.0,1
+1512,Empire Boulevard,4.0,0.0,5
+1513,Erasmus Street,0.0,0.0,1
+1514,Ericsson Street,2.0,0.0,1
+1515,Erskine Street,0.0,0.0,2
+1516,Essex Street,4.0,0.0,4
+1517,Etna Street,0.0,0.0,1
+1518,Euclid Avenue,2.0,0.0,4
+1519,Evergreen Avenue,6.0,0.0,9
+1520,Exterior Street,0.0,0.0,4
+1521,Faber Street,0.0,0.0,1
+1522,Fairmount Place,0.0,0.0,1
+1523,Fairview Avenue,4.0,0.0,4
+1524,Farmers Boulevard,6.0,0.0,11
+1525,Farragut Road,10.0,0.0,13
+1526,Farrington Street,0.0,0.0,1
+1527,Fdr Drive,50.0,1.0,77
+1528,Featherbed Lane,2.0,0.0,3
+1529,Fenimore Street,0.0,0.0,1
+1530,Fenton Avenue,0.0,0.0,1
+1531,Fieldstone Road,0.0,0.0,1
+1532,Fillmore Avenue,0.0,0.0,2
+1533,Findlay Avenue,0.0,0.0,1
+1534,Fine Boulevard,0.0,0.0,1
+1535,Fingal Street,2.0,0.0,1
+1536,Fish Avenue,2.0,0.0,1
+1537,Flatbush Avenue,42.0,0.0,57
+1538,Flatbush Avenue Extension,4.0,0.0,4
+1539,Flatlands 10 Street,0.0,0.0,1
+1540,Flatlands Avenue,22.0,0.0,26
+1541,Flushing Avenue,16.0,0.0,24
+1542,Foch Boulevard,8.0,0.0,5
+1543,Folsom Place,0.0,0.0,1
+1544,Forbell Street,6.0,0.0,5
+1545,Force Tube Avenue,0.0,0.0,1
+1546,Forest Avenue,16.0,0.0,15
+1547,Forest Hill Road,2.0,0.0,4
+1548,Forrestal Avenue,2.0,0.0,1
+1549,Fort George Avenue,0.0,0.0,1
+1550,Fort Hamilton Parkway,6.0,0.0,8
+1551,Fort Independence Street,0.0,0.0,1
+1552,Fort Washington Avenue,4.0,0.0,6
+1553,Foster Avenue,12.0,0.0,10
+1554,Foster Road,0.0,0.0,1
+1555,Fountain Avenue,0.0,0.0,1
+1556,Four Corners Road,0.0,0.0,1
+1557,Fox Street,0.0,0.0,1
+1558,Frame Place,0.0,0.0,1
+1559,Francis Lewis Boulevard,12.0,0.0,19
+1560,Frankfort Street,0.0,0.0,1
+1561,Franklin Avenue,8.0,0.0,10
+1562,Freeborn Street,0.0,0.0,1
+1563,Fresh Pond Road,2.0,0.0,1
+1564,Frisby Avenue,0.0,0.0,1
+1565,Frost Street,0.0,0.0,1
+1566,Fteley Avenue,0.0,0.0,1
+1567,Fulton Avenue,8.0,0.0,7
+1568,Fulton Street,16.0,0.0,28
+1569,Furman Avenue,0.0,0.0,3
+1570,Furmanville Avenue,2.0,0.0,1
+1571,Gansevoort Boulevard,2.0,0.0,1
+1572,Gardner Avenue,2.0,0.0,1
+1573,Garfield Place,2.0,0.0,3
+1574,Garfield Street,0.0,0.0,1
+1575,Garretson Avenue,0.0,0.0,1
+1576,Garretson Lane,0.0,0.0,1
+1577,Gates Avenue,6.0,0.0,9
+1578,Gates Place,0.0,0.0,1
+1579,Gateway Drive,0.0,0.0,5
+1580,Gelston Avenue,2.0,0.0,1
+1581,Geneva Loop,2.0,0.0,1
+1582,Georgia Avenue,2.0,0.0,2
+1583,Gerard Avenue,0.0,0.0,3
+1584,Gerritsen Avenue,0.0,0.0,1
+1585,Getz Avenue,2.0,0.0,2
+1586,Givan Avenue,0.0,0.0,1
+1587,Gleason Avenue,2.0,0.0,4
+1588,Glen Street,2.0,0.0,3
+1589,Glenmore Avenue,8.0,0.0,8
+1590,Glenwood Road,16.0,0.0,12
+1591,Goble Place,0.0,0.0,1
+1592,Goethals Avenue,2.0,0.0,1
+1593,Goethals Road North,0.0,0.0,2
+1594,Gold Street,0.0,0.0,3
+1595,Gordon Street,0.0,0.0,1
+1596,Goulden Avenue,0.0,0.0,1
+1597,Gowanus Expy (Bqe),16.0,0.0,15
+1598,Grafton Street,0.0,0.0,1
+1599,Graham Avenue,2.0,0.0,4
+1600,Grand Avenue,10.0,0.0,7
+1601,Grand Central Parkway,6.0,0.0,6
+1602,Grand Central Pkwy,73.0,0.0,77
+1603,Grand Concourse,26.0,0.0,35
+1604,Grand Street,14.0,1.0,16
+1605,Grandview Avenue,0.0,0.0,1
+1606,Grant Avenue,0.0,0.0,3
+1607,Grant Highway,2.0,0.0,2
+1608,Graves Street,0.0,0.0,1
+1609,Greene Avenue,4.0,0.0,5
+1610,Greene Street,2.0,0.0,1
+1611,Greenpoint Avenue,6.0,0.0,8
+1612,Greenwich Avenue,2.0,0.0,1
+1613,Greenwich Street,0.0,0.0,1
+1614,Grenada Place,2.0,0.0,1
+1615,Grove Street,0.0,0.0,1
+1616,Gulf Avenue,2.0,0.0,1
+1617,Gunther Avenue,2.0,0.0,3
+1618,Guyon Avenue,0.0,0.0,1
+1619,Haight Avenue,0.0,0.0,1
+1620,Hall Street,0.0,0.0,1
+1621,Halleck Street,2.0,0.0,2
+1622,Halsey Street,0.0,0.0,4
+1623,Hamilton Avenue,2.0,0.0,6
+1624,Hancock Place,0.0,0.0,1
+1625,Hancock Street,2.0,0.0,4
+1626,Hannibal Street,0.0,0.0,1
+1627,Hanover Square,0.0,0.0,1
+1628,Harbor Road,2.0,0.0,2
+1629,Haring Street,2.0,0.0,1
+1630,Harkness Avenue,0.0,0.0,1
+1631,Harlem River Drive,18.0,0.0,19
+1632,Harman Street,2.0,0.0,3
+1633,Hart Street,0.0,0.0,1
+1634,Hasbrouck Road,0.0,0.0,1
+1635,Hastings Street,0.0,0.0,1
+1636,Havemeyer Avenue,0.0,0.0,1
+1637,Havemeyer Street,2.0,0.0,2
+1638,Haven Avenue,0.0,0.0,1
+1639,Haviland Avenue,0.0,0.0,3
+1640,Hawthorne Street,2.0,0.0,2
+1641,Hazen Street,2.0,0.0,2
+1642,Heath Avenue,0.0,0.0,2
+1643,Hegeman Avenue,10.0,0.0,9
+1644,Hemlock Street,2.0,0.0,2
+1645,Hempstead Avenue,0.0,0.0,2
+1646,Henderson Avenue,0.0,0.0,3
+1647,Hendrickson Street,0.0,0.0,2
+1648,Hendrix Street,0.0,0.0,3
+1649,Henry Hudson Parkway,34.0,1.0,43
+1650,Henry Hudson Parkway Ramp,0.0,0.0,1
+1651,Henry Street,2.0,0.0,3
+1652,Herkimer Place,0.0,0.0,1
+1653,Herkimer Street,2.0,0.0,5
+1654,Herzl Street,0.0,0.0,1
+1655,Hester Street,0.0,0.0,1
+1656,Hewes Street,0.0,0.0,1
+1657,Hewitt Place,0.0,0.0,1
+1658,Hewlett Street,2.0,0.0,2
+1659,Hicks Street,4.0,0.0,9
+1660,Highland Boulevard,2.0,0.0,2
+1661,Hill Avenue,0.0,0.0,1
+1662,Hill Street,2.0,0.0,3
+1663,Hillside Avenue,22.0,0.0,24
+1664,Himrod Street,2.0,0.0,2
+1665,Hinsdale Street,4.0,0.0,4
+1666,Hobart Street,2.0,0.0,1
+1667,Hoe Avenue,0.0,0.0,3
+1668,Holden Boulevard,2.0,0.0,1
+1669,Holland Avenue,0.0,0.0,5
+1670,Hollers Avenue,0.0,0.0,4
+1671,Hollis Avenue,4.0,1.0,4
+1672,Hollis Court Boulevard,0.0,0.0,1
+1673,Holly Avenue,0.0,0.0,1
+1674,Holly Street,0.0,0.0,1
+1675,Hone Avenue,0.0,0.0,2
+1676,Honeywell Street,2.0,0.0,1
+1677,Hook Creek Boulevard,0.0,0.0,2
+1678,Hope Street,0.0,0.0,1
+1679,Hopkins Avenue,2.0,0.0,1
+1680,Horace Harding Expressway,2.0,0.0,3
+1681,Howard Avenue,8.0,0.0,15
+1682,Hoyt Avenue North,2.0,0.0,1
+1683,Hoyt Avenue South,2.0,0.0,2
+1684,Hoyt Street,4.0,0.0,4
+1685,Hubbard Street,0.0,0.0,1
+1686,Hudson Parkway,0.0,0.0,1
+1687,Hudson Street,2.0,0.0,2
+1688,Hughes Avenue,0.0,0.0,2
+1689,Huguenot Avenue,2.0,0.0,1
+1690,Hull Avenue,0.0,0.0,5
+1691,Humboldt Street,2.0,0.0,3
+1692,Hunt Avenue,0.0,0.0,1
+1693,Hunters Point Avenue,2.0,0.0,3
+1694,Huntington Avenue,2.0,0.0,1
+1695,Huntington Street,2.0,0.0,1
+1696,Hunts Point Avenue,4.0,0.0,5
+1697,Hutchinson River Parkway,16.0,0.0,18
+1698,Hyatt Street,0.0,0.0,1
+1699,Hylan Boulevard,20.0,1.0,30
+1700,Independence Avenue,0.0,0.0,1
+1701,Intervale Avenue,0.0,0.0,2
+1702,Inwood Avenue,0.0,0.0,1
+1703,Inwood Street,0.0,0.0,1
+1704,Irvine Street,0.0,0.0,1
+1705,Irving Avenue,8.0,0.0,6
+1706,Irwin Avenue,0.0,0.0,1
+1707,Ithaca Street,0.0,0.0,1
+1708,Jackie Robinson Pkwy,26.0,0.0,26
+1709,Jackson Avenue,4.0,0.0,7
+1710,Jackson Street,0.0,0.0,2
+1711,Jamaica Avenue,32.0,0.0,32
+1712,Jarrett Place,2.0,0.0,1
+1713,Jay Street,2.0,0.0,1
+1714,Jefferson Avenue,0.0,0.0,3
+1715,Jefferson Street,0.0,0.0,1
+1716,Jennings Street,0.0,0.0,3
+1717,Jerome Avenue,28.0,0.0,41
+1718,Jerome Street,0.0,0.0,2
+1719,Jersey Street,0.0,0.0,1
+1720,Jesup Avenue,0.0,0.0,2
+1721,Jewel Avenue,0.0,0.0,1
+1722,Jewett Avenue,2.0,0.0,1
+1723,Johnson Avenue,0.0,0.0,3
+1724,Johnson Street,6.0,0.0,6
+1725,Joralemon Street,0.0,0.0,2
+1726,Jordan Avenue,0.0,0.0,1
+1727,Judge Street,0.0,0.0,1
+1728,Junction Boulevard,6.0,0.0,6
+1729,Juniper Boulevard North,0.0,1.0,1
+1730,Juniper Valley Road,0.0,0.0,1
+1731,Junius Street,4.0,0.0,5
+1732,Justice Avenue,2.0,0.0,1
+1733,Kappock Street,0.0,0.0,1
+1734,Keeseville Avenue,0.0,0.0,1
+1735,Kelly Boulevard,0.0,0.0,2
+1736,Kelly Street,2.0,0.0,3
+1737,Kenilworth Avenue,0.0,0.0,1
+1738,Kenmare Street,0.0,0.0,2
+1739,Kent Avenue,2.0,0.0,5
+1740,Kepler Avenue,0.0,0.0,1
+1741,King Road,0.0,0.0,2
+1742,Kings Highway,28.0,0.0,31
+1743,Kingsbridge Avenue,0.0,0.0,2
+1744,Kingsbridge Terrace,0.0,0.0,4
+1745,Kingsland Avenue,4.0,0.0,7
+1746,Kingston Avenue,10.0,0.0,7
+1747,Kissena Boulevard,10.0,0.0,6
+1748,Knapp Street,2.0,0.0,4
+1749,Knickerbocker Avenue,0.0,0.0,5
+1750,Knolls Crescent,0.0,0.0,1
+1751,Korean War Vets Parkway,4.0,0.0,4
+1752,Kosciuszko Street,2.0,0.0,1
+1753,Lacombe Avenue,2.0,0.0,2
+1754,Laconia Avenue,4.0,0.0,6
+1755,Lafayette Avenue,8.0,0.0,9
+1756,Lafayette Street,2.0,0.0,3
+1757,Laight Street,0.0,0.0,1
+1758,Lamberts Lane,0.0,0.0,2
+1759,Lamport Boulevard,0.0,0.0,1
+1760,Landis Avenue,0.0,0.0,1
+1761,Laurel Hill Boulevard,0.0,1.0,2
+1762,Laurel Hill Terrace,0.0,0.0,1
+1763,Laurelton Parkway,24.0,0.0,27
+1764,Lawrence Avenue,0.0,0.0,1
+1765,Layton Avenue,2.0,0.0,1
+1766,Leavitt Street,0.0,0.0,1
+1767,Lee Avenue,0.0,0.0,1
+1768,Lefferts Boulevard,10.0,1.0,9
+1769,Legion Street,0.0,0.0,1
+1770,Leland Avenue,4.0,0.0,2
+1771,Lenox Avenue,6.0,0.0,6
+1772,Lenox Road,2.0,0.0,4
+1773,Leonard Street,4.0,0.0,3
+1774,Lewis Avenue,8.0,0.0,13
+1775,Lewiston Street,0.0,0.0,1
+1776,Lexington Avenue,6.0,0.0,19
+1777,Liberty Avenue,12.0,0.0,16
+1778,Liberty Street,0.0,0.0,2
+1779,Lily Pond Avenue,2.0,0.0,4
+1780,Lincoln Avenue,2.0,0.0,6
+1781,Lincoln Place,2.0,0.0,2
+1782,Linden Boulevard,38.0,0.0,56
+1783,Linden Place,0.0,0.0,1
+1784,Linden Street,0.0,0.0,3
+1785,Linwood Street,0.0,0.0,2
+1786,Little Clove Road,2.0,0.0,1
+1787,Little Neck Parkway,2.0,0.0,5
+1788,Livermore Avenue,0.0,0.0,1
+1789,Livingston Street,2.0,0.0,2
+1790,Livonia Avenue,4.0,0.0,7
+1791,Lockman Avenue,0.0,0.0,1
+1792,Locust Avenue,2.0,0.0,3
+1793,Logan Avenue,0.0,0.0,1
+1794,Logan Street,4.0,0.0,5
+1795,Lois Avenue,0.0,0.0,1
+1796,Long Island Expressway,60.0,0.0,83
+1797,Long Street,0.0,0.0,1
+1798,Longfellow Avenue,0.0,0.0,1
+1799,Longwood Avenue,4.0,0.0,7
+1800,Lorimer Street,2.0,0.0,5
+1801,Loring Avenue,2.0,0.0,1
+1802,Loring Place North,0.0,0.0,1
+1803,Lorraine Street,2.0,0.0,1
+1804,Lott Avenue,0.0,0.0,4
+1805,Louisiana Avenue,0.0,0.0,1
+1806,Lowerre Place,0.0,0.0,1
+1807,Ludlow Street,0.0,0.0,1
+1808,Lutheran Avenue,0.0,0.0,1
+1809,Lydig Avenue,2.0,0.0,1
+1810,Lyon Avenue,0.0,0.0,1
+1811,Mac Dougal Street,2.0,0.0,2
+1812,Macdonough Street,2.0,0.0,3
+1813,Macdougal Street,0.0,0.0,1
+1814,Mace Avenue,0.0,0.0,3
+1815,Macombs Dam Bridge,2.0,0.0,2
+1816,Macombs Road,0.0,0.0,2
+1817,Macon Street,2.0,0.0,2
+1818,Madison Avenue,18.0,0.0,18
+1819,Madison Street,4.0,0.0,6
+1820,Magenta Street,2.0,0.0,1
+1821,Main Street,8.0,0.0,8
+1822,Major Avenue,0.0,0.0,1
+1823,Major Deegan Expressway,66.0,0.0,79
+1824,Manhattan Avenue,0.0,0.0,8
+1825,Manor Avenue,0.0,0.0,1
+1826,Manor Road,6.0,1.0,5
+1827,Maple Avenue,0.0,0.0,3
+1828,Maple Parkway,0.0,0.0,1
+1829,Maple Street,0.0,0.0,2
+1830,Maple Terrace,0.0,0.0,1
+1831,Marcus Garvey Boulevard,2.0,0.0,5
+1832,Marcy Avenue,6.0,0.0,7
+1833,Marianne Street,0.0,0.0,1
+1834,Marine Avenue,0.0,0.0,1
+1835,Marlborough Road,0.0,0.0,1
+1836,Marmion Avenue,0.0,0.0,1
+1837,Martense Street,0.0,0.0,2
+1838,Martin Luther King Jr,0.0,0.0,3
+1839,Maujer Street,2.0,0.0,1
+1840,Maurice Avenue,2.0,0.0,4
+1841,May Avenue,0.0,0.0,1
+1842,Mayfair Drive North,0.0,0.0,1
+1843,Mayfair Drive South,0.0,0.0,1
+1844,Mayville Street,0.0,0.0,1
+1845,Mc Donald Avenue,6.0,0.0,11
+1846,Mc Guinness Boulevard,0.0,0.0,6
+1847,Mc Kibbin Street,0.0,0.0,1
+1848,Mcclean Avenue,0.0,0.0,3
+1849,Mcgraw Avenue,0.0,0.0,2
+1850,Meadow Street,0.0,0.0,1
+1851,Meeker Avenue,0.0,0.0,3
+1852,Melrose Avenue,2.0,0.0,4
+1853,Melrose Street,0.0,0.0,1
+1854,Memphis Avenue,0.0,0.0,2
+1855,Mercer Street,2.0,0.0,3
+1856,Meredith Avenue,0.0,0.0,1
+1857,Mermaid Avenue,6.0,0.0,6
+1858,Merrick Boulevard,6.0,0.0,9
+1859,Merrill Avenue,0.0,0.0,1
+1860,Merriman Avenue,0.0,0.0,1
+1861,Merritt Avenue,0.0,0.0,1
+1862,Meserole Street,0.0,0.0,1
+1863,Metcalf Avenue,2.0,0.0,5
+1864,Metropolitan Avenue,16.0,0.0,23
+1865,Metrotech Center,2.0,0.0,1
+1866,Mickle Avenue,2.0,0.0,1
+1867,Middletown Road,2.0,0.0,2
+1868,Midland Parkway,2.0,0.0,2
+1869,Midwood Street,2.0,0.0,2
+1870,Miles Avenue,0.0,0.0,1
+1871,Milford Drive,2.0,0.0,1
+1872,Milford Street,0.0,0.0,2
+1873,Mill Road,0.0,0.0,1
+1874,Minford Place,0.0,0.0,2
+1875,Monitor Street,2.0,0.0,2
+1876,Monroe Street,2.0,0.0,1
+1877,Montauk Avenue,0.0,0.0,2
+1878,Montgomery Avenue,0.0,0.0,3
+1879,Montrose Avenue,4.0,0.0,4
+1880,Moore Street,0.0,0.0,1
+1881,Morgan Avenue,4.0,0.0,6
+1882,Morningside Avenue,0.0,0.0,4
+1883,Morningstar Road,6.0,0.0,3
+1884,Morris Avenue,10.0,0.0,9
+1885,Morris Park Avenue,6.0,1.0,9
+1886,Mosholu Parkway,8.0,0.0,5
+1887,Mott Avenue,2.0,0.0,5
+1888,Mount Eden Parkway,0.0,0.0,1
+1889,Mount Hope Place,0.0,0.0,1
+1890,Mulberry Street,0.0,0.0,2
+1891,Murdock Avenue,0.0,0.0,5
+1892,Murray Street,4.0,0.0,3
+1893,Myrtle Avenue,24.0,0.0,20
+1894,Nagle Avenue,0.0,0.0,4
+1895,Nameoke Avenue,0.0,0.0,1
+1896,Narrows Road North,0.0,0.0,1
+1897,Nassau Avenue,2.0,0.0,2
+1898,Nassau Expressway,0.0,0.0,4
+1899,National Street,2.0,0.0,2
+1900,Navy Street,4.0,0.0,2
+1901,Needham Avenue,2.0,0.0,2
+1902,Neill Avenue,2.0,0.0,3
+1903,Nelson Avenue,2.0,0.0,3
+1904,Neponsit Avenue,0.0,0.0,1
+1905,Neptune Avenue,14.0,0.0,15
+1906,Nereid Avenue,0.0,0.0,1
+1907,Netherland Avenue,2.0,0.0,2
+1908,Nevins Street,0.0,0.0,2
+1909,New Dorp Lane,0.0,0.0,1
+1910,New England Thruway,2.0,0.0,2
+1911,New Haven Avenue,0.0,0.0,1
+1912,New Jersey Avenue,0.0,0.0,1
+1913,New Lots Avenue,14.0,0.0,16
+1914,New Utrecht Avenue,6.0,0.0,7
+1915,New York Avenue,10.0,0.0,11
+1916,Newbold Avenue,2.0,0.0,2
+1917,Newkirk Avenue,4.0,0.0,4
+1918,Newport Street,2.0,0.0,2
+1919,Newtown Road,2.0,0.0,1
+1920,Nicholas Avenue,0.0,0.0,1
+1921,Nichols Avenue,2.0,0.0,1
+1922,Nicolls Avenue,2.0,0.0,1
+1923,Noble Avenue,2.0,0.0,1
+1924,Noll Street,2.0,0.0,1
+1925,Nome Avenue,0.0,0.0,2
+1926,Norfolk Street,0.0,0.0,1
+1927,Norman Avenue,0.0,0.0,2
+1928,Norman Street,2.0,0.0,2
+1929,North 10 Street,0.0,0.0,2
+1930,North 14 Street,0.0,0.0,1
+1931,North 3 Street,0.0,0.0,1
+1932,North 4 Street,0.0,0.0,2
+1933,North 5 Street,0.0,0.0,1
+1934,North 8 Street,0.0,0.0,1
+1935,North Burgher Avenue,0.0,0.0,1
+1936,North Conduit Avenue,18.0,0.0,19
+1937,North Gannon Avenue,2.0,0.0,2
+1938,North Oxford Street,0.0,0.0,1
+1939,North Street,4.0,0.0,2
+1940,Northern Boulevard,24.0,0.0,34
+1941,Nostrand Avenue,46.0,0.0,47
+1942,Oak Avenue,2.0,0.0,1
+1943,Oak Point Avenue,0.0,0.0,1
+1944,Oakdale Street,2.0,0.0,1
+1945,Ocean Avenue,18.0,0.0,24
+1946,Ocean Parkway,12.0,0.0,12
+1947,Ocean Terrace,0.0,0.0,1
+1948,Oceanview Place,0.0,0.0,1
+1949,Ogden Avenue,4.0,0.0,6
+1950,Old South Road,2.0,0.0,1
+1951,Olinville Avenue,4.0,0.0,4
+1952,Olive Street,0.0,0.0,2
+1953,Olmstead Avenue,2.0,0.0,2
+1954,Onderdonk Avenue,4.0,0.0,3
+1955,Orange Street,2.0,0.0,1
+1956,Osgood Avenue,2.0,0.0,2
+1957,Otis Avenue,2.0,0.0,1
+1958,Overing Street,2.0,0.0,1
+1959,Ovington Avenue,0.0,0.0,1
+1960,Pacific Street,6.0,0.0,5
+1961,Paerdegat 7 Street,2.0,0.0,1
+1962,Paerdegat Avenue North,2.0,0.0,1
+1963,Page Avenue,0.0,0.0,2
+1964,Palmetto Street,2.0,0.0,1
+1965,Park Avenue,20.0,0.0,37
+1966,Park Avenue South,2.0,0.0,1
+1967,Park Circle,0.0,0.0,3
+1968,Park Drive East,0.0,0.0,2
+1969,Park Hill Avenue,0.0,0.0,3
+1970,Park Lane,2.0,0.0,1
+1971,Park Place,2.0,0.0,9
+1972,Park Row,0.0,0.0,1
+1973,Parkside Avenue,4.0,0.0,8
+1974,Parsons Boulevard,14.0,0.0,10
+1975,Patchen Avenue,4.0,0.0,4
+1976,Paulding Avenue,0.0,0.0,3
+1977,Pauw Street,0.0,0.0,1
+1978,Pearl Street,2.0,0.0,4
+1979,Pelham Parkway,0.0,0.0,3
+1980,Pelham Parkway South,2.0,0.0,5
+1981,Pennsylvania Avenue,28.0,0.0,36
+1982,Perry Street,0.0,0.0,2
+1983,Philip Avenue,0.0,0.0,1
+1984,Pilling Street,2.0,0.0,1
+1985,Pine Street,0.0,0.0,3
+1986,Pineapple Street,0.0,0.0,1
+1987,Pinehurst Avenue,0.0,0.0,1
+1988,Pinkney Avenue,0.0,0.0,1
+1989,Pinson Street,0.0,0.0,1
+1990,Pioneer Street,0.0,0.0,1
+1991,Pitkin Avenue,18.0,0.0,19
+1992,Platinum Avenue,2.0,0.0,1
+1993,Police Plaza,0.0,0.0,1
+1994,Ponton Avenue,0.0,0.0,1
+1995,Popham Avenue,0.0,0.0,1
+1996,Pople Avenue,0.0,0.0,1
+1997,Port Richmond Avenue,2.0,0.0,2
+1998,Post Avenue,2.0,0.0,4
+1999,Powell Avenue,0.0,0.0,1
+2000,Powell Street,0.0,0.0,1
+2001,President Street,2.0,0.0,5
+2002,Prince Street,4.0,0.0,2
+2003,Prospect Avenue,16.0,0.0,14
+2004,Prospect Expressway East,4.0,0.0,5
+2005,Prospect Park Southwest,2.0,0.0,2
+2006,Prospect Park West,2.0,0.0,2
+2007,Prospect Place,2.0,0.0,8
+2008,Provost Street,0.0,0.0,1
+2009,Pugsley Avenue,2.0,0.0,2
+2010,Pulaski Street,4.0,0.0,2
+2011,Putnam Avenue,4.0,0.0,12
+2012,Putnam Avenue West,0.0,0.0,1
+2013,Quay Street,0.0,0.0,1
+2014,Queens Boulevard,22.0,0.0,21
+2015,Queens Plaza South,2.0,0.0,2
+2016,Quentin Road,8.0,0.0,8
+2017,Quincy Avenue,0.0,0.0,1
+2018,Radcliff Avenue,0.0,0.0,1
+2019,Radnor Street,2.0,0.0,1
+2020,Ralph Avenue,18.0,0.0,20
+2021,Randall Avenue,4.0,0.0,5
+2022,Raymond Place,0.0,0.0,1
+2023,Reeds Mill Lane,0.0,0.0,1
+2024,Reid Avenue,8.0,0.0,6
+2025,Remsen Avenue,14.0,0.0,13
+2026,Renwick Street,0.0,0.0,1
+2027,Reservoir Avenue,0.0,0.0,1
+2028,Reservoir Oval West,0.0,0.0,1
+2029,Review Avenue,0.0,0.0,1
+2030,Rhinelander Avenue,2.0,0.0,2
+2031,Richards Street,0.0,0.0,1
+2032,Richardson Avenue,0.0,0.0,1
+2033,Richardson Street,0.0,0.0,2
+2034,Richmond Avenue,12.0,0.0,19
+2035,Richmond Hill Road,0.0,0.0,4
+2036,Richmond Road,2.0,0.0,9
+2037,Richmond Street,0.0,0.0,1
+2038,Richmond Terrace,4.0,0.0,9
+2039,Rider Avenue,0.0,0.0,1
+2040,Ridge Boulevard,0.0,0.0,2
+2041,Ridge Street,0.0,0.0,1
+2042,Ridgewood Avenue,0.0,0.0,3
+2043,River Avenue,2.0,0.0,6
+2044,Riverdale Avenue,6.0,0.0,8
+2045,Riverside Drive,14.0,0.0,21
+2046,Rivington Street,0.0,0.0,1
+2047,Roberts Avenue,2.0,0.0,1
+2048,Rochambeau Avenue,0.0,0.0,1
+2049,Rochester Avenue,8.0,0.0,9
+2050,Rockaway Avenue,14.0,0.0,13
+2051,Rockaway Beach Boulevard,6.0,0.0,7
+2052,Rockaway Boulevard,12.0,0.0,23
+2053,Rockaway Parkway,20.0,0.0,23
+2054,Rockaway Point Boulevard,0.0,0.0,1
+2055,Rockefeller Plaza,0.0,0.0,1
+2056,Rockland Avenue,2.0,0.0,3
+2057,Rodney Street,0.0,0.0,1
+2058,Roebling Street,0.0,0.0,1
+2059,Rogers Avenue,14.0,0.0,15
+2060,Roman Avenue,2.0,0.0,1
+2061,Roosevelt Avenue,14.0,0.0,12
+2062,Rosedale Avenue,0.0,0.0,2
+2063,Ross Street,0.0,0.0,1
+2064,Rossville Avenue,0.0,0.0,1
+2065,Rust Street,2.0,0.0,1
+2066,Rutgers Street,2.0,0.0,3
+2067,Rutland Road,4.0,0.0,4
+2068,Ryer Avenue,0.0,0.0,6
+2069,Sacket Avenue,0.0,0.0,2
+2070,Sackett Street,0.0,0.0,1
+2071,Sackman Street,0.0,0.0,2
+2072,Saint Anns Avenue,6.0,0.0,7
+2073,Saint Felix Street,0.0,0.0,1
+2074,Saint James Place,0.0,0.0,1
+2075,Saint Johns Place,0.0,0.0,4
+2076,Saint Lawrence Avenue,0.0,0.0,2
+2077,Saint Marks Avenue,0.0,0.0,2
+2078,Saint Marks Place,2.0,0.0,4
+2079,Saint Marys Street,2.0,0.0,1
+2080,Saint Nicholas Avenue,14.0,0.0,16
+2081,Saint Nicholas Terrace,0.0,0.0,2
+2082,Saint Pauls Avenue,2.0,0.0,1
+2083,Saint Pauls Place,0.0,0.0,2
+2084,Saint Raymond Avenue,0.0,0.0,2
+2085,Sampson Avenue,2.0,0.0,1
+2086,Sandford Street,0.0,0.0,1
+2087,Sands Street,0.0,0.0,1
+2088,Sanford Avenue,0.0,0.0,5
+2089,Saratoga Avenue,6.0,0.0,8
+2090,Saultell Avenue,0.0,0.0,3
+2091,Sawyer Avenue,0.0,0.0,1
+2092,Sayres Avenue,0.0,0.0,1
+2093,Schenck Avenue,0.0,0.0,2
+2094,Schenectady Avenue,10.0,0.0,11
+2095,Schermerhorn Street,0.0,0.0,1
+2096,Scholes Street,0.0,0.0,3
+2097,Seafoam Street,0.0,0.0,1
+2098,Seagate Avenue,2.0,0.0,1
+2099,Seagirt Avenue,0.0,0.0,1
+2100,Seagirt Boulevard,0.0,0.0,5
+2101,Seaview Avenue,8.0,0.0,7
+2102,Seddon Street,0.0,0.0,1
+2103,Sedgwick Avenue,0.0,0.0,7
+2104,Seeley Street,0.0,0.0,1
+2105,Seigel Street,0.0,0.0,1
+2106,Senator Street,2.0,0.0,3
+2107,Seneca Avenue,4.0,0.0,4
+2108,Seward Avenue,0.0,0.0,1
+2109,Shakespeare Avenue,0.0,0.0,1
+2110,Sharpe Avenue,0.0,0.0,1
+2111,Sharrott Avenue,0.0,0.0,1
+2112,Sheepshead Bay Road,2.0,0.0,2
+2113,Shell Road,0.0,0.0,1
+2114,Shepherd Avenue,0.0,0.0,3
+2115,Sheridan Avenue,2.0,0.0,4
+2116,Sheridan Expressway,6.0,0.0,3
+2117,Sherman Avenue,4.0,0.0,4
+2118,Shore Boulevard,0.0,0.0,2
+2119,Shore Front Parkway,2.0,0.0,1
+2120,Shore Parkway,8.0,0.0,14
+2121,Shore Road,6.0,0.0,3
+2122,Silver Street,2.0,0.0,1
+2123,Skillman Avenue,2.0,0.0,4
+2124,Slosson Avenue,0.0,0.0,2
+2125,Smart Street,0.0,0.0,1
+2126,Smedley Street,2.0,0.0,1
+2127,Smith Street,10.0,0.0,6
+2128,Snediker Avenue,0.0,0.0,4
+2129,Snyder Avenue,8.0,0.0,8
+2130,Sound View Avenue,6.0,0.0,5
+2131,South 1 Street,0.0,0.0,2
+2132,South 2 Street,0.0,0.0,2
+2133,South 3 Street,2.0,0.0,3
+2134,South 5 Place,0.0,0.0,1
+2135,South 5 Street,2.0,0.0,3
+2136,South 8 Street,0.0,0.0,1
+2137,South 9 Street,4.0,0.0,3
+2138,South Avenue,4.0,0.0,4
+2139,South Conduit Avenue,8.0,0.0,9
+2140,South Gannon Avenue,2.0,0.0,1
+2141,South Portland Avenue,0.0,0.0,1
+2142,South Road,2.0,0.0,2
+2143,South Street,2.0,0.0,1
+2144,Southern Boulevard,28.0,0.0,25
+2145,Southern Parkway,2.0,0.0,2
+2146,Spencer Avenue,0.0,0.0,1
+2147,Spencer Street,0.0,0.0,1
+2148,Spofford Avenue,0.0,0.0,1
+2149,Sprague Avenue,0.0,0.0,1
+2150,Spring Street,4.0,0.0,3
+2151,Springfield Boulevard,6.0,0.0,7
+2152,Springfield Lane,0.0,0.0,1
+2153,Stafford Avenue,2.0,0.0,1
+2154,Stanhope Street,0.0,0.0,4
+2155,Stanley Avenue,4.0,0.0,7
+2156,Stanwix Street,0.0,0.0,1
+2157,Starbuck Street,2.0,0.0,1
+2158,Starr Avenue,0.0,0.0,1
+2159,Starr Street,0.0,0.0,2
+2160,State Street,0.0,0.0,2
+2161,Staten Island Expressway,10.0,0.0,15
+2162,Stebbins Avenue,0.0,0.0,1
+2163,Steinway Street,4.0,0.0,7
+2164,Stephen Street,0.0,0.0,2
+2165,Stephens Court,0.0,0.0,1
+2166,Sterling Place,2.0,0.0,8
+2167,Sterling Street,0.0,0.0,1
+2168,Steuben Street,0.0,0.0,1
+2169,Stillwell Avenue,0.0,0.0,2
+2170,Stobe Avenue,0.0,0.0,1
+2171,Stockholm Street,0.0,0.0,5
+2172,Stone Avenue,10.0,2.0,9
+2173,Story Avenue,4.0,0.0,3
+2174,Stratford Avenue,2.0,0.0,1
+2175,Stratton Street,0.0,0.0,1
+2176,Strickland Avenue,0.0,0.0,1
+2177,Stuyvesant Avenue,2.0,0.0,3
+2178,Summit Avenue,0.0,0.0,1
+2179,Sumpter Street,2.0,0.0,1
+2180,Sunrise Highway,2.0,0.0,3
+2181,Surf Avenue,2.0,0.0,3
+2182,Surrey Place,0.0,0.0,1
+2183,Sutphin Boulevard,4.0,0.0,6
+2184,Sutter Avenue,6.0,0.0,22
+2185,Sutton Street,0.0,0.0,1
+2186,Sycamore Street,0.0,0.0,1
+2187,Taaffe Place,0.0,0.0,1
+2188,Tapscott Street,4.0,0.0,4
+2189,Targee Street,0.0,0.0,4
+2190,Taylor Street,0.0,0.0,1
+2191,Tehama Street,0.0,0.0,1
+2192,Teller Avenue,0.0,0.0,2
+2193,Ten Eyck Street,2.0,0.0,1
+2194,Tenbroeck Avenue,0.0,0.0,2
+2195,Tennyson Drive,0.0,0.0,1
+2196,Thames Street,0.0,0.0,1
+2197,Thieriot Avenue,0.0,0.0,1
+2198,Thompson Street,0.0,0.0,2
+2199,Thomson Avenue,2.0,0.0,1
+2200,Throgs Neck Expressway,2.0,0.0,2
+2201,Throop Avenue,8.0,0.0,8
+2202,Thwaites Place,2.0,0.0,1
+2203,Tibbett Avenue,0.0,0.0,1
+2204,Tiebout Avenue,2.0,0.0,2
+2205,Tiemann Avenue,0.0,0.0,1
+2206,Tiffany Street,6.0,0.0,6
+2207,Tilden Avenue,4.0,0.0,4
+2208,Tilden Street,0.0,0.0,2
+2209,Tillary Street,4.0,0.0,2
+2210,Tillotson Avenue,2.0,0.0,3
+2211,Tinton Avenue,0.0,0.0,3
+2212,Todt Hill Road,0.0,0.0,3
+2213,Tompkins Avenue,14.0,0.0,9
+2214,Tompkins Circle,0.0,0.0,1
+2215,Tonsor Street,2.0,0.0,1
+2216,Townsend Avenue,0.0,0.0,2
+2217,Traffic Avenue,0.0,0.0,1
+2218,Transverse Road Number One,0.0,0.0,1
+2219,Transverse Road Number Three,4.0,0.0,4
+2220,Trantor Place,0.0,0.0,1
+2221,Travis Avenue,2.0,0.0,2
+2222,Treadwell Avenue,0.0,0.0,2
+2223,Trinity Avenue,0.0,0.0,3
+2224,Troutman Street,0.0,0.0,3
+2225,Troy Avenue,2.0,0.0,4
+2226,Truxton Street,0.0,0.0,1
+2227,Tryon Avenue,0.0,0.0,1
+2228,Tyndall Avenue,2.0,0.0,1
+2229,Tyrellan Avenue,0.0,0.0,1
+2230,Tysens Lane,2.0,0.0,3
+2231,Undercliff Avenue,4.0,0.0,4
+2232,Underhill Avenue,2.0,0.0,3
+2233,Union Avenue,6.0,0.0,11
+2234,Union Square East,2.0,0.0,1
+2235,Union Street,8.0,0.0,20
+2236,Union Turnpike,12.0,1.0,9
+2237,University Avenue,16.0,0.0,13
+2238,Utica Avenue,28.0,0.0,25
+2239,Utopia Parkway,2.0,0.0,6
+2240,Valentine Avenue,12.0,0.0,13
+2241,Van Brunt Street,2.0,0.0,4
+2242,Van Buren Street,0.0,0.0,1
+2243,Van Dam Street,0.0,0.0,1
+2244,Van Sicklen Street,0.0,0.0,1
+2245,Van Siclen Avenue,0.0,0.0,1
+2246,Van Siderin Avenue,2.0,0.0,1
+2247,Van Wyck Expwy,44.0,0.0,51
+2248,Vancortlandt Avenue East,2.0,0.0,1
+2249,Vancortlandt Park East,0.0,0.0,1
+2250,Vandam Street,4.0,0.0,7
+2251,Vanderbilt Avenue,2.0,0.0,4
+2252,Vandervort Place,0.0,0.0,1
+2253,Vanduzer Street,2.0,0.0,1
+2254,Vannest Avenue,0.0,0.0,1
+2255,Vanwyck Expressway,4.0,0.0,3
+2256,Varick Avenue,0.0,0.0,1
+2257,Varick Street,2.0,0.0,5
+2258,Vermilyea Avenue,2.0,0.0,2
+2259,Vermont Place,2.0,0.0,1
+2260,Vermont Street,2.0,0.0,4
+2261,Vernon Boulevard,2.0,0.0,3
+2262,Veronica Place,0.0,0.0,2
+2263,Verrazano Bridge Lower,0.0,0.0,1
+2264,Vesey Street,0.0,0.0,2
+2265,Victory Boulevard,8.0,0.0,13
+2266,Viele Avenue,2.0,0.0,1
+2267,Villa Avenue,2.0,0.0,1
+2268,Vireo Avenue,0.0,0.0,1
+2269,Virgil Place,0.0,0.0,1
+2270,Virginia Avenue,0.0,0.0,1
+2271,Voorhies Avenue,4.0,0.0,3
+2272,Vyse Avenue,2.0,0.0,5
+2273,Waldo Avenue,0.0,0.0,1
+2274,Waldron Street,0.0,0.0,1
+2275,Wales Avenue,0.0,0.0,1
+2276,Walker Street,2.0,1.0,4
+2277,Wall Street,2.0,0.0,1
+2278,Wallabout Street,6.0,0.0,5
+2279,Waltham Street,0.0,0.0,1
+2280,Walton Avenue,4.0,0.0,7
+2281,Wareham Place,0.0,0.0,1
+2282,Waring Avenue,2.0,0.0,2
+2283,Warren Street,2.0,0.0,1
+2284,Warwick Street,2.0,0.0,1
+2285,Washington Avenue,14.0,0.0,24
+2286,Watchogue Road,4.0,0.0,4
+2287,Water Street,4.0,0.0,3
+2288,Waterbury Avenue,2.0,0.0,2
+2289,Waterside Plaza,0.0,0.0,1
+2290,Watkins Street,0.0,0.0,2
+2291,Watson Avenue,6.0,0.0,4
+2292,Watts Street,0.0,0.0,1
+2293,Waverly Avenue,0.0,0.0,1
+2294,Waverly Place,0.0,0.0,1
+2295,Webb Avenue,0.0,0.0,1
+2296,Webster Avenue,32.0,0.0,36
+2297,Weed Avenue,0.0,0.0,2
+2298,Weeks Avenue,0.0,0.0,2
+2299,Weirfield Street,2.0,0.0,3
+2300,Wellbrook Avenue,0.0,0.0,1
+2301,Wenner Place,0.0,0.0,1
+2302,West 10 Street,0.0,0.0,1
+2303,West 100 Street,0.0,0.0,2
+2304,West 101 Street,2.0,0.0,3
+2305,West 103 Street,2.0,0.0,2
+2306,West 104 Street,2.0,0.0,2
+2307,West 105 Street,0.0,0.0,2
+2308,West 108 Street,0.0,0.0,2
+2309,West 109 Street,0.0,0.0,1
+2310,West 11 Street,0.0,0.0,1
+2311,West 111 Street,0.0,0.0,2
+2312,West 112 Street,0.0,0.0,4
+2313,West 113 Street,0.0,0.0,2
+2314,West 114 Street,2.0,0.0,2
+2315,West 115 Street,0.0,0.0,3
+2316,West 116 Street,2.0,0.0,4
+2317,West 118 Street,2.0,0.0,3
+2318,West 12 Street,4.0,0.0,3
+2319,West 120 Street,0.0,0.0,2
+2320,West 121 Street,2.0,0.0,2
+2321,West 122 Street,4.0,0.0,3
+2322,West 123 Street,0.0,0.0,2
+2323,West 125 Street,24.0,0.0,18
+2324,West 126 Street,2.0,0.0,2
+2325,West 127 Street,4.0,0.0,2
+2326,West 128 Street,2.0,0.0,1
+2327,West 13 Street,2.0,0.0,4
+2328,West 130 Street,2.0,0.0,4
+2329,West 131 Street,2.0,0.0,2
+2330,West 133 Street,4.0,0.0,3
+2331,West 135 Street,2.0,0.0,1
+2332,West 136 Street,0.0,0.0,1
+2333,West 137 Street,0.0,0.0,1
+2334,West 139 Street,2.0,0.0,3
+2335,West 14 Street,2.0,0.0,1
+2336,West 140 Street,4.0,0.0,6
+2337,West 141 Street,2.0,0.0,6
+2338,West 142 Street,0.0,0.0,2
+2339,West 143 Street,4.0,0.0,8
+2340,West 144 Street,2.0,0.0,3
+2341,West 145 Street,18.0,0.0,17
+2342,West 146 Street,0.0,0.0,3
+2343,West 147 Street,4.0,0.0,3
+2344,West 15 Street,2.0,0.0,3
+2345,West 150 Street,0.0,0.0,2
+2346,West 152 Street,0.0,0.0,4
+2347,West 154 Street,2.0,0.0,2
+2348,West 155 Street,10.0,0.0,11
+2349,West 157 Street,0.0,0.0,1
+2350,West 158 Street,0.0,0.0,1
+2351,West 159 Street,2.0,0.0,1
+2352,West 16 Street,0.0,0.0,2
+2353,West 160 Street,0.0,0.0,3
+2354,West 161 Street,0.0,0.0,1
+2355,West 163 Street,2.0,0.0,3
+2356,West 164 Street,0.0,0.0,3
+2357,West 166 Street,0.0,0.0,3
+2358,West 168 Street,0.0,0.0,1
+2359,West 169 Street,0.0,0.0,2
+2360,West 17 Road,2.0,0.0,1
+2361,West 17 Street,0.0,0.0,4
+2362,West 170 Street,4.0,0.0,3
+2363,West 172 Street,0.0,0.0,3
+2364,West 173 Street,0.0,0.0,2
+2365,West 174 Street,0.0,0.0,1
+2366,West 175 Street,2.0,0.0,1
+2367,West 177 Street,6.0,0.0,5
+2368,West 178 Street,2.0,0.0,3
+2369,West 179 Street,4.0,0.0,7
+2370,West 180 Street,2.0,0.0,3
+2371,West 181 Street,6.0,0.0,3
+2372,West 182 Street,0.0,0.0,1
+2373,West 183 Street,2.0,0.0,2
+2374,West 184 Street,4.0,0.0,2
+2375,West 188 Street,4.0,0.0,2
+2376,West 189 Street,0.0,0.0,2
+2377,West 19 Street,2.0,0.0,2
+2378,West 192 Street,2.0,0.0,1
+2379,West 193 Street,0.0,0.0,2
+2380,West 195 Street,0.0,0.0,1
+2381,West 2 Street,0.0,0.0,2
+2382,West 20 Street,2.0,0.0,2
+2383,West 204 Street,0.0,0.0,1
+2384,West 207 Street,6.0,0.0,7
+2385,West 21 Street,2.0,0.0,2
+2386,West 215 Street,0.0,0.0,1
+2387,West 218 Street,0.0,0.0,1
+2388,West 225 Street,2.0,0.0,3
+2389,West 23 Street,6.0,0.0,5
+2390,West 230 Street,4.0,0.0,4
+2391,West 231 Street,4.0,0.0,3
+2392,West 233 Street,0.0,0.0,1
+2393,West 237 Street,0.0,0.0,1
+2394,West 238 Street,0.0,0.0,3
+2395,West 24 Street,2.0,0.0,2
+2396,West 25 Street,0.0,0.0,3
+2397,West 259 Street,0.0,0.0,1
+2398,West 26 Street,0.0,0.0,3
+2399,West 260 Street,0.0,0.0,1
+2400,West 261 Street,0.0,0.0,1
+2401,West 262 Street,0.0,0.0,1
+2402,West 27 Street,0.0,0.0,2
+2403,West 28 Street,2.0,0.0,3
+2404,West 29 Street,0.0,0.0,7
+2405,West 30 Street,0.0,0.0,1
+2406,West 31 Street,2.0,0.0,2
+2407,West 33 Street,2.0,0.0,2
+2408,West 34 Street,2.0,1.0,1
+2409,West 35 Street,0.0,0.0,1
+2410,West 36 Street,4.0,0.0,9
+2411,West 37 Street,8.0,0.0,8
+2412,West 38 Street,4.0,0.0,4
+2413,West 39 Street,2.0,0.0,4
+2414,West 4 Street,0.0,0.0,2
+2415,West 40 Street,2.0,0.0,2
+2416,West 41 Street,4.0,0.0,2
+2417,West 42 Street,4.0,0.0,3
+2418,West 43 Street,2.0,0.0,3
+2419,West 44 Street,0.0,0.0,1
+2420,West 45 Street,0.0,0.0,2
+2421,West 46 Street,4.0,0.0,3
+2422,West 48 Street,0.0,0.0,2
+2423,West 49 Street,0.0,0.0,2
+2424,West 50 Street,0.0,0.0,1
+2425,West 51 Street,0.0,0.0,1
+2426,West 52 Street,0.0,0.0,4
+2427,West 53 Street,0.0,0.0,1
+2428,West 54 Street,0.0,0.0,1
+2429,West 57 Street,4.0,0.0,7
+2430,West 58 Street,0.0,0.0,1
+2431,West 6 Street,6.0,0.0,6
+2432,West 60 Street,2.0,0.0,1
+2433,West 61 Street,0.0,0.0,1
+2434,West 64 Street,2.0,0.0,1
+2435,West 67 Street,0.0,0.0,2
+2436,West 68 Street,0.0,0.0,1
+2437,West 69 Street,2.0,0.0,1
+2438,West 70 Street,2.0,0.0,1
+2439,West 71 Street,0.0,0.0,1
+2440,West 72 Street,2.0,0.0,2
+2441,West 74 Street,0.0,0.0,1
+2442,West 75 Street,0.0,0.0,1
+2443,West 78 Street,0.0,0.0,1
+2444,West 79 Street,4.0,0.0,3
+2445,West 8 Street,2.0,0.0,3
+2446,West 81 Street,0.0,0.0,1
+2447,West 82 Street,2.0,0.0,2
+2448,West 83 Street,0.0,0.0,2
+2449,West 85 Street,0.0,0.0,1
+2450,West 89 Street,0.0,0.0,1
+2451,West 9 Street,0.0,0.0,2
+2452,West 90 Street,0.0,0.0,1
+2453,West 91 Street,0.0,0.0,3
+2454,West 92 Street,0.0,0.0,1
+2455,West 93 Street,0.0,0.0,2
+2456,West 94 Street,0.0,0.0,2
+2457,West 95 Street,0.0,0.0,3
+2458,West 96 Street,2.0,0.0,5
+2459,West 97 Street,2.0,0.0,3
+2460,West 98 Street,2.0,0.0,1
+2461,West Broadway,0.0,0.0,3
+2462,West Burnside Avenue,2.0,0.0,6
+2463,West Clarke Place,2.0,0.0,1
+2464,West Drive,5.0,0.0,2
+2465,West End Avenue,6.0,0.0,8
+2466,West Farms Road,0.0,0.0,4
+2467,West Fingerboard Road,2.0,0.0,1
+2468,West Fordham Road,16.0,0.0,23
+2469,West Gun Hill Road,0.0,0.0,1
+2470,West Houston Street,0.0,0.0,2
+2471,West Kingsbridge Road,4.0,0.0,8
+2472,West Mosholu Parkway South,0.0,0.0,1
+2473,West Shore Expressway,0.0,0.0,9
+2474,West Street,6.0,0.0,13
+2475,West Tremont Avenue,2.0,0.0,4
+2476,Westchester Avenue,20.0,0.0,23
+2477,Westervelt Avenue,0.0,0.0,1
+2478,Westwood Avenue,2.0,0.0,2
+2479,Whipple Street,0.0,0.0,1
+2480,White Plains Road,32.0,0.0,40
+2481,White Street,0.0,0.0,1
+2482,Whitestone Expressway,12.0,0.0,15
+2483,Whitman Drive,0.0,0.0,1
+2484,Whitney Avenue,0.0,0.0,1
+2485,Wickham Avenue,2.0,0.0,2
+2486,Wilder Avenue,0.0,0.0,1
+2487,Wilkens Avenue,0.0,0.0,1
+2488,Willett Avenue,0.0,0.0,1
+2489,Willett Street,0.0,0.0,1
+2490,William Street,0.0,0.0,1
+2491,Williams Avenue,2.0,0.0,1
+2492,Williams Place,0.0,0.0,1
+2493,Williamsbridge Road,6.0,0.0,8
+2494,Williamsburg Bridge,0.0,0.0,1
+2495,Williamsburg Street West,4.0,0.0,4
+2496,Willis Avenue,6.0,0.0,9
+2497,Willoughby Avenue,6.0,0.0,8
+2498,Willoughby Street,0.0,0.0,2
+2499,Willow Road East,0.0,0.0,1
+2500,Willowbrook Road,4.0,0.0,3
+2501,Wilson Avenue,12.0,0.0,10
+2502,Wilson Street,0.0,0.0,1
+2503,Winant Avenue,0.0,0.0,1
+2504,Windsor Place,0.0,0.0,2
+2505,Winthrop Street,4.0,0.0,6
+2506,Withers Street,0.0,0.0,1
+2507,Wood Avenue,0.0,0.0,1
+2508,Woodbine Street,0.0,0.0,4
+2509,Woodhaven Boulevard,28.0,0.0,22
+2510,Woodrow Road,2.0,0.0,2
+2511,Woodruff Avenue,2.0,0.0,2
+2512,Woodside Avenue,4.0,0.0,4
+2513,Woodward Avenue,4.0,0.0,4
+2514,Woodycrest Avenue,4.0,0.0,3
+2515,Woolley Avenue,2.0,0.0,2
+2516,Wortman Avenue,5.0,0.0,5
+2517,Wright Street,0.0,0.0,2
+2518,Wyckoff Avenue,2.0,0.0,10
+2519,Wyona Street,0.0,0.0,1
+2520,Wythe Avenue,2.0,0.0,5
+2521,Xenia Street,0.0,0.0,1
+2522,York Avenue,4.0,0.0,9
+2523,Zeiser Place,0.0,0.0,2
+2524,Zerega Avenue,6.0,0.0,6
