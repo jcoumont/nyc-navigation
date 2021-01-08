@@ -30,29 +30,3 @@ def get_coordinates(address: str):
     else:
         return (location.latitude, location.longitude)  # , location.address)
 
-
-if __name__ == "__main__":
-    try:
-        print(get_coordinates("175 5th Avenue NYC"))
-        print(get_coordinates("uguugvuv"))
-        print(get_coordinates("Liège"))
-
-        print(get_coordinates("5 Ave"))
-        print(get_coordinates("5 Ave NYC"))
-        print(get_coordinates("5th Avenue NYC"))
-        print(get_coordinates("5th Avenue New York"))
-        print(get_coordinates("40.8147478, -73.9361291"))
-    except LocationUnknownException:
-        print("Unknown address")
-    except LocationNotInNyException:
-        print("Address not in New York")
-
-# (40.741059199999995, -73.98964162240998)
-# unknown address
-# address not in New York
-
-# (40.753821, -73.9819629) -> metro 42nd Street
-# (40.753821, -73.9819629)
-# address not in New York
-# (40.8147478, -73.9361291)
-# (40.8147478, -73.9361291)

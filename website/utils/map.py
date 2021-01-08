@@ -26,6 +26,3 @@ def get_map(from_coord:tuple, to_coord:tuple):
 
     return map_nyc._repr_html_()
 
-
-if __name__ == "__main__":
-    print(get_map())
