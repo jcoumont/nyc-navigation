@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ======================= head ========================== -->
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+    <div id="global">
+        <h1>Safe navigation in New York</h1>
+        <div>
+            <table>
+                <tr>
+                    <th>From : </th>
+                    <td><input type="text" name="from_address" /></td>
+                </tr>
+                <tr>
+                    <th>To : </th>
+                    <td><input type="password" name="to_address" /></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td><input type="submit" /></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            {{ data | safe }}
+            {{ start_location | safe }}
+            {{ end_location | safe }}
+        </div>
+    </div>
+</body>
+
+</html>
