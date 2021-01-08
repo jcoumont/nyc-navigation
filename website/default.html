@@ -6,20 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- ======================= head ========================== -->
-    <title>Titre : {{ title }}</title>
+    <title>{{ title }}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
 </head>
 
 <body>
     <div id="global">
-        <h1>Secure navigation in New York</h1>
+        <h1>Safe navigation in New York</h1>
         <div>
-            <form action="navigate" method="post">
-                From : <input type="text" name="from_address" /><br />
-                To : <input type="text" name="to_address" /><br />
-                <input type="submit" />
-            </form>
+            <table>
+                <tr>
+                    <th>From : </th>
+                    <td><input type="text" name="from_address" /></td>
+                </tr>
+                <tr>
+                    <th>To : </th>
+                    <td><input type="password" name="to_address" /></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td><input type="submit" /></td>
+                </tr>
+            </table>
         </div>
         <div>
             {{ data | safe }}

@@ -11,6 +11,10 @@ body {
   width: 900px; 
 }
 
+table th {
+  text-align: right;
+}
+
 /*
  * Formatting the header area
  */
