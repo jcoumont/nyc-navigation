@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template
 from utils.coordinates import get_coordinates, LocationUnknownException, LocationNotInNyException
+from utils.map import get_map
 
 
 app = Flask(__name__, template_folder=".")
@@ -26,8 +27,9 @@ def login():
     try:
         start_location = get_coordinates(from_address)
         end_location = get_coordinates(to_address)
-        # return jsonify(data)
-        return render_template("default.html", title="Navigation", start_location=start_location, end_location=end_location)
+        data = get_map(start_location,end_location)
+        return render_template("default.html", title="Navigation",data=data)
+        # return render_template("default.html", title="Navigation", start_location=start_location, end_location=end_location)
     except LocationUnknownException:
         return render_template("default.html", title="Navigation : Error", data="Unknown address")
     except LocationNotInNyException:

@@ -15,6 +15,7 @@
     <div id="global">
         <h1>Safe navigation in New York</h1>
         <div>
+            <form action="navigate" method="post">
             <table>
                 <tr>
                     <th>From : </th>
@@ -22,15 +23,17 @@
                 </tr>
                 <tr>
                     <th>To : </th>
-                    <td><input type="password" name="to_address" /></td>
+                    <td><input type="text" name="to_address" /></td>
                 </tr>
                 <tr>
                     <th></th>
                     <td><input type="submit" /></td>
                 </tr>
             </table>
+        </form>
         </div>
         <div>
+            <!-- <iframe src="website/map.html" title="W3Schools Free Online Web Tutorials"> -->
             {{ data | safe }}
             {{ start_location | safe }}
             {{ end_location | safe }}
