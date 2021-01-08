@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ======================= head ========================== -->
+    <title>Titre : {{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+    <div id="global">
+        <h1>Secure navigation in New York</h1>
+        <div>
+            <form action="navigate" method="post">
+                From : <input type="text" name="from_address" /><br />
+                To : <input type="text" name="to_address" /><br />
+                <input type="submit" />
+            </form>
+        </div>
+        <div>
+            {{ data | safe }}
+            {{ start_location | safe }}
+            {{ end_location | safe }}
+        </div>
+    </div>
+</body>
+
+</html>
