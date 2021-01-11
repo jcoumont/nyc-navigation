@@ -29,4 +29,3 @@ def get_coordinates(address: str):
         raise LocationNotInNyException
     else:
         return (location.latitude, location.longitude)  # , location.address)
-

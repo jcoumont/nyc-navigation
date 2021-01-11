@@ -10,11 +10,6 @@ COPY . /app/.
 # Select the working directory
 WORKDIR /app
 # Install required packages
-RUN pip install docker
-RUN pip install flask
-RUN pip install geopy
-RUN pip install osmnx
-RUN pip install networkx
-# RUN pip install -r requirements.txt
+RUN pip install -r requirements.txt
 # Run the model.py file
 CMD ["python", "website/route.py"]
