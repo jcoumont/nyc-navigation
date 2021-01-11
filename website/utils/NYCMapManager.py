@@ -1,14 +1,27 @@
 import copy
 import folium
+import pandas as pd
+import geopandas as gpd
 
 
 class NYCMapManager:
     default_map = None
+    default_colors = {
+                        "shortest": "blue",
+                        "safest": "green",
+                        "dangerous": "red",
+                        "other": "yellow"
+                     }
 
     def __init__(self):
         latitude = 40.677834
         longitude = -74.012443
         self.default_map = folium.Map(location=[latitude, longitude], zoom_start=10)
+        #self.initialize_accident_layer()
+
+    def initialize_accident_layer(self):
+        layer_group = folium.FeatureGroup(name="accident").add_to(self.default_map)
+
 
     def get_map(self, from_coord: tuple, to_coord: tuple, routes=None):
         """Return the html code to display map
@@ -26,7 +39,7 @@ class NYCMapManager:
             if type(routes) is dict:
                 for key in routes:
                     choropleth = folium.Choropleth(
-                                        routes[key], line_weight=5, line_color="blue", line_opacity=0.5
+                                        routes[key], line_weight=5, line_color=self.default_colors[key], line_opacity=0.5
                                     )
                     layer_group = folium.FeatureGroup(name=key).add_to(map_nyc)
                     layer_group.add_child(choropleth)

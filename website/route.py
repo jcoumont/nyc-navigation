@@ -27,11 +27,8 @@ def login():
 
     from_address = request.form["from_address"]
     to_address = request.form["to_address"]
-    try:
-        route_types = request.form.getlist('type')
-    except Exception:
-        route_types = ["safest"]
-
+    route_types = ["safest"]
+    route_types.extend(request.form.getlist('type'))
 
     try:
         start_location = get_coordinates(from_address)
