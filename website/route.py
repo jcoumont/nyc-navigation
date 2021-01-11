@@ -1,10 +1,11 @@
 from flask import Flask, request, render_template
 from utils.coordinates import get_coordinates, LocationUnknownException, LocationNotInNyException
 from utils.map import get_map
+from utils.NYCRouteManager import NYCRouteManager
 
 
 app = Flask(__name__, template_folder=".")
-
+route_manager = NYCRouteManager()
 
 @app.route("/")
 def hello():
@@ -27,7 +28,9 @@ def login():
     try:
         start_location = get_coordinates(from_address)
         end_location = get_coordinates(to_address)
-        data = get_map(start_location,end_location)
+
+        route = route_manager.get_safest_route(start_location, end_location)
+        data = get_map(start_location, end_location, route=route)
         return render_template("default.html", title="Navigation",data=data)
         # return render_template("default.html", title="Navigation", start_location=start_location, end_location=end_location)
     except LocationUnknownException:
