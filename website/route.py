@@ -2,6 +2,7 @@ from flask import Flask, request, render_template
 from utils.coordinates import get_coordinates, LocationUnknownException, LocationNotInNyException
 from utils.map import get_map
 from utils.NYCRouteManager import NYCRouteManager
+import os
 
 
 app = Flask(__name__, template_folder=".")
@@ -11,8 +12,6 @@ route_manager = NYCRouteManager()
 def hello():
     """Display the home page
     """
-    # data: str = "Hello World"
-    # return render_template("default.html", title="Home", data=data)
     return render_template("default.html", title="Home")
 
 
@@ -43,4 +42,5 @@ def login():
 
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=5000)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
