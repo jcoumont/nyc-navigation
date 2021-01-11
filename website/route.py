@@ -4,12 +4,13 @@ from utils.coordinates import (
     LocationUnknownException,
     LocationNotInNyException,
 )
-from utils.map import get_map
+from utils.NYCMapManager import NYCMapManager
 from utils.NYCRouteManager import NYCRouteManager
 
 
 app = Flask(__name__, template_folder=".")
 route_manager = NYCRouteManager()
+map_manager = NYCMapManager()
 
 
 @app.route("/")
@@ -26,14 +27,18 @@ def login():
 
     from_address = request.form["from_address"]
     to_address = request.form["to_address"]
-    route_types = request.form.getlist('type')
+    try:
+        route_types = request.form.getlist('type')
+    except Exception:
+        route_types = ["safest"]
+
 
     try:
         start_location = get_coordinates(from_address)
         end_location = get_coordinates(to_address)
 
         routes = route_manager.get_routes(start_location, end_location, route_types)
-        data = get_map(start_location, end_location, routes=routes)
+        data = map_manager.get_map(start_location, end_location, routes=routes)
 
         return render_template("default.html", title="Navigation", data=data)
         # return render_template("default.html", title="Navigation", start_location=start_location, end_location=end_location)
