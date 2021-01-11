@@ -4,6 +4,7 @@ import networkx as nx
 from os import path
 
 
+
 def download_osm(query="New York City, New York, USA", network_type="drive"):
     """
     Create graph from OSM within the boundaries of some geocodable place(s).
@@ -327,6 +328,20 @@ class NYCRouteManager:
             return edge_risk * -1
 
         return self.get_route(point_from, point_to, weight=most_dangerous_weight)
+
+    def get_routes(self, point_from: tuple, point_to: tuple, route_types: list):
+        routes = {}
+        for route_type in route_types:
+            route = None
+            if route_type == "safest":
+                route = self.get_safest_route(point_from, point_to)
+            elif route_type == "shortest":
+                route = self.get_shortest_route(point_from, point_to)
+            elif route_type == "dangerous":
+                route = self.get_most_dangerous_route(point_from, point_to)
+            if route is not None:
+                routes[route_type] = route
+        return routes
 
 
 if __name__ == "__main__":
