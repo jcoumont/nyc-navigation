@@ -127,7 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-#VS code
-.gitignore
 .vscode
+playground/cache
+cache
