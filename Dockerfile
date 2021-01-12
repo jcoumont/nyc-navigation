@@ -1,5 +1,5 @@
-#docker build . -t nyc-navigation2 -f Dockerfile
-#docker run --name nyc-challenge2 -v $PWD/website/route.py:/app/website/route.py -it nyc-navigation2 bash
+#docker build . -t nyc-navigation1 -f Dockerfile
+#docker run --name nyc-challenge1 -v $PWD/website/route.py:/app/website/route.py -it nyc-navigation1 bash
 
 # Get base image
 FROM python:3.8

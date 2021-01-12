@@ -17,8 +17,6 @@ map_manager = NYCMapManager()
 @app.route("/")
 def hello():
     """Display the home page"""
-    # data: str = "Hello World"
-    # return render_template("default.html", title="Home", data=data)
     return render_template("default.html", title="Home")
 
 
@@ -48,9 +46,10 @@ def login():
         return render_template(
             "default.html", title="Navigation : Error", data="Address not in New York"
         )
-    except Exception:
+    except Exception as err:
+        msg = f"Error : {err}"
         return render_template(
-            "default.html", title="Navigation : Error", data="Error!"
+            "default.html", title="Navigation : Error", data=msg
         )
 
 if __name__ == "__main__":
