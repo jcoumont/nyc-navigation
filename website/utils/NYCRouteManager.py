@@ -56,7 +56,7 @@ def save_osm(G, filepath):
     ox.save_graphml(G, filepath=filepath)
 
 
-def load_osm(filepath, specific_dtypes={"risk": float}):
+def load_osm(filepath, specific_dtypes={"risk": float, "global_risk": float}):
     """
     Load an OSMnx-saved GraphML file from disk.
 
@@ -290,7 +290,7 @@ class NYCRouteManager:
         See get_route(self, point_from, point_to, weight=weight) for more information.
 
         """
-        return self.get_route(point_from, point_to, weight="risk")
+        return self.get_route(point_from, point_to, weight="global_risk")
 
     def get_shortest_route(self, point_from, point_to):
         """
@@ -324,7 +324,7 @@ class NYCRouteManager:
         """
 
         def most_dangerous_weight(u, v, d):
-            edge_risk = d.get("risk", 0)
+            edge_risk = d.get("global_risk", 0)
             return edge_risk * -1
 
         return self.get_route(point_from, point_to, weight=most_dangerous_weight)
