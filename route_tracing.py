@@ -14,20 +14,19 @@ class Path_tracing:
         return m
 
     def trace_the_path(self, segments : list, m):
-        list_of_colors = ["#799351", "#ebdc87", "#ffa36c," "#d54062"] #Green , Yellow, Orange, red
-
-        for i, ii in zip(gdf["geometry"], gdf["dangerosity"]):
-            if ii <= 0.3:
-                path = folium.Choropleth(i,line_weight=5, line_color='#799351', line_opacity=1).add_to(m)
+        range_of_coluor = {10:"#FF4500",
+                9:"#FF0000",
+                8:"#FF6347",
+                7:"#FF8C00",
+                6:"#FFA500",
+                5:"#FFD700",
+                4:"#FFFF00",
+                3:"#9ACD32",
+                2:"#7FFF00",
+                1:"#00FF00",
+                0:"#00FF00"} # red, tomate, dark orange, orange, yellow, gold, yellowgreen, reus, lim
         
-            elif 0.3 < ii <= 0.6:
-                path = folium.Choropleth(i,line_weight=5, line_color='#ffa36c', line_opacity=1).add_to(m)
-        
-            else:
-                path = folium.Choropleth(i,line_weight=5, line_color='#FF0000', line_opacity=1).add_to(m)
+        gdf["risk"] = (gdf["risk"]-gdf["risk"].min()) / (gdf["risk"].max() - gdf["risk"].min()) # normalaized the risk columns
+        for i, ii in zip(gdf["geometry"], gdf["risk"]):
+            path = folium.Choropleth(i,line_weight=5, line_color=range_of_coluor[round(ii*10)], line_opacity=1).add_to(m)
         return path
-
-    def calculate_distance(self, segments):
-        distance = geopy.distance.distance(segments[0], segments[-1])
-m = Path_tracing().creat_map()
-Path_tracing().trace_the_path(loc,m)
