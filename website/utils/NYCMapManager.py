@@ -11,9 +11,10 @@ class NYCMapManager:
     crashes_filepath = 'data/NYC_crashes_100000_osmid.csv'
     layer_crashes = None
     default_colors = {
-                        "shortest": "gradient",
-                        "safest": "gradient",
-                        "dangerous": "gradient",
+                        "shortest": "blue",
+                        "safest": "green",
+                        "dangerous": "red",
+                        "safest_short": "orange",
                         "other": "yellow"
                      }
     
@@ -73,7 +74,7 @@ class NYCMapManager:
     #                                 fill_opacity=0.7,
     #                                 fill=True).add_to(marker_cluster)
 
-    def get_map(self, from_coord: tuple, to_coord: tuple, routes=None):
+    def get_map(self, from_coord: tuple, to_coord: tuple, routes=None, use_gradient=True):
         """Return the html code to display map
 
         Args:
@@ -91,15 +92,15 @@ class NYCMapManager:
                 for key in routes:
                     route = routes[key]
                     length_km = round((route["length"].sum()/1000), 3)
-
-                    layer_group = folium.FeatureGroup(name=f"{key} ({length_km} km)").add_to(map_nyc)
-                    colour = self.default_colors[key]    
-                    if colour == "gradient" :  # Draw the path with gradient
+                        
+                    if use_gradient :  # Draw the path with gradient
                         # Transform the risk on a range from 0-10
                         # route["global_risk"] = round((route["global_risk"]/route["global_risk"].max())*10)
                         #for path_part, risk in zip(route["geometry"], route["global_risk"]):
                         #    choropleth = folium.Choropleth(path_part,line_weight=5, line_color=self.range_of_colour[risk], line_opacity=1)
                         #    layer_group.add_child(choropleth)
+                        layer_group = folium.FeatureGroup(name=f"{key} ({length_km} km) (risk view)", show=False).add_to(map_nyc)
+
                         def get_colour(feature):
                             """Maps low values to green and hugh values to red."""
                             if feature == 0:
@@ -113,11 +114,14 @@ class NYCMapManager:
                         for path_part, risk in zip(route["geometry"], route["global_risk"]):
                             choropleth = folium.Choropleth(path_part, line_weight=5, line_color=get_colour(risk), line_opacity=1)
                             layer_group.add_child(choropleth)
-                    else:
-                        choropleth = folium.Choropleth(
-                                            route, line_weight=5, line_color=self.default_colors[key], line_opacity=0.5
-                                        )
-                        layer_group.add_child(choropleth)
+                    
+                    color = self.default_colors[key]
+                    layer_group = folium.FeatureGroup(name=f"{key} ({length_km} km) ({color})").add_to(map_nyc)
+                    choropleth = folium.Choropleth(
+                                        route, line_weight=5, line_color=color, line_opacity=0.5
+                                    )
+                    layer_group.add_child(choropleth)
+                    
                     tb = route.total_bounds
                 map_nyc.fit_bounds([(tb[1], tb[0]), (tb[3], tb[2])])
             else:
