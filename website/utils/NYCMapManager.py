@@ -12,7 +12,7 @@ class NYCMapManager:
     layer_crashes = None
     default_colors = {
                         "shortest": "blue",
-                        "safest": "green",
+                        "safest": "gradient",
                         "dangerous": "red",
                         "other": "yellow"
                      }
@@ -90,8 +90,8 @@ class NYCMapManager:
                 for key in routes:
                     route = routes[key]
                     layer_group = folium.FeatureGroup(name=key).add_to(map_nyc)
-                        
-                    if key == "safest" :  # Draw the safest way with gradient
+                    colour = self.default_colors[key]    
+                    if colour == "gradient" :  # Draw the path with gradient
                         # Normalize the risk
                         route["global_risk"] = (route["global_risk"]-route["global_risk"].min()) / (route["global_risk"].max() - route["global_risk"].min())
                         for i, ii in zip(route["geometry"], route["global_risk"]):
