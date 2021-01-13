@@ -118,7 +118,7 @@ class NYCMapManager:
                     color = self.default_colors[key]
                     layer_group = folium.FeatureGroup(name=f"{key} ({length_km} km) ({color})").add_to(map_nyc)
                     choropleth = folium.Choropleth(
-                                        route, line_weight=5, line_color=color, line_opacity=0.5
+                                        route, line_weight=5, line_color=color, line_opacity=0.7
                                     )
                     layer_group.add_child(choropleth)
                     
@@ -126,7 +126,7 @@ class NYCMapManager:
                 map_nyc.fit_bounds([(tb[1], tb[0]), (tb[3], tb[2])])
             else:
                 folium.Choropleth(
-                    routes, line_weight=5, line_color="blue", line_opacity=0.5
+                    routes, line_weight=5, line_color="blue", line_opacity=1
                 ).add_to(map_nyc)
                 tb = routes.total_bounds
                 map_nyc.fit_bounds([(tb[1], tb[0]), (tb[3], tb[2])])
