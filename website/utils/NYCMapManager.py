@@ -11,9 +11,9 @@ class NYCMapManager:
     crashes_filepath = 'data/NYC_crashes_100000_osmid.csv'
     layer_crashes = None
     default_colors = {
-                        "shortest": "blue",
+                        "shortest": "gradient",
                         "safest": "gradient",
-                        "dangerous": "red",
+                        "dangerous": "gradient",
                         "other": "yellow"
                      }
     
@@ -28,6 +28,7 @@ class NYCMapManager:
                         2:"#7FFF00",
                         1:"#00FF00",
                         0:"#00FF00"} # red, tomate, dark orange, orange, yellow, gold, yellowgreen, reus, lim
+
 
     # def __init__(self):
     #     self.initialize_crashes_layer()
@@ -92,10 +93,23 @@ class NYCMapManager:
                     layer_group = folium.FeatureGroup(name=key).add_to(map_nyc)
                     colour = self.default_colors[key]    
                     if colour == "gradient" :  # Draw the path with gradient
-                        # Normalize the risk
-                        route["global_risk"] = (route["global_risk"]-route["global_risk"].min()) / (route["global_risk"].max() - route["global_risk"].min())
-                        for i, ii in zip(route["geometry"], route["global_risk"]):
-                            choropleth = folium.Choropleth(i,line_weight=5, line_color=self.range_of_colour[round(ii*10)], line_opacity=1)
+                        # Transform the risk on a range from 0-10
+                        # route["global_risk"] = round((route["global_risk"]/route["global_risk"].max())*10)
+                        #for path_part, risk in zip(route["geometry"], route["global_risk"]):
+                        #    choropleth = folium.Choropleth(path_part,line_weight=5, line_color=self.range_of_colour[risk], line_opacity=1)
+                        #    layer_group.add_child(choropleth)
+                        def get_colour(feature):
+                            """Maps low values to green and hugh values to red."""
+                            if feature == 0:
+                                return "#00FF00"
+                            elif feature < 3:
+                                return "#FFFF00"
+                            elif feature < 7:
+                                return "#FF8C00"
+                            else:
+                                return "#FF4500"
+                        for path_part, risk in zip(route["geometry"], route["global_risk"]):
+                            choropleth = folium.Choropleth(path_part, line_weight=5, line_color=get_colour(risk), line_opacity=1)
                             layer_group.add_child(choropleth)
                     else:
                         choropleth = folium.Choropleth(
