@@ -14,7 +14,7 @@ class NYCMapManager:
         "shortest": "blue",
         "safest": "green",
         "dangerous": "red",
-        "safest_short": "orange",
+        "safest_streets": "orange",
         "other": "yellow",
     }
 
