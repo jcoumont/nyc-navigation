@@ -90,7 +90,9 @@ class NYCMapManager:
             if type(routes) is dict:
                 for key in routes:
                     route = routes[key]
-                    layer_group = folium.FeatureGroup(name=key).add_to(map_nyc)
+                    length_km = round((route["length"].sum()/1000), 3)
+
+                    layer_group = folium.FeatureGroup(name=f"{key} ({length_km} km)").add_to(map_nyc)
                     colour = self.default_colors[key]    
                     if colour == "gradient" :  # Draw the path with gradient
                         # Transform the risk on a range from 0-10
