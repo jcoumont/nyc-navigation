@@ -2,40 +2,46 @@
 <html>
 
 <head>
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  
+    <CENTER><IMG SRC="12.png" ALIGN="BOTTOM"> </CENTER> 
+        <CENTER> <h1><p style=color:white;">Safe navigation in New York</p></h1> </CENTER>
+        
+        
+        
+        
+      
     <!-- ======================= head ========================== -->
     <title>{{ title }}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
 </head>
 
-<body>
+<body style="background-color:rgb(58, 77, 83);">
+    
     <div id="global">
-        <h1>Safe navigation in New York</h1>
+        
+        
         <div>
             <form action="navigate" method="post">
             <table>
                 <tr>
                     <th>From : </th>
-                    <td><input type="text" name="from_address" size="100"/></td>
+                    <td><input type="text" style="background-color:slategray" name="from_address" size="60"/></td>
                 </tr>
                 <tr>
                     <th>To : </th>
-                    <td><input type="text" name="to_address" size="100"/></td>
+                    <td><input type="text"  style="background-color:slategray"  name="to_address" size="60"/></td>
                 </tr>
                 <tr>
                     <th>Type : </th>
-                    <td><input type="checkbox" name="type" value="shortest">Shortest</td>
+                    <td><input type="checkbox" style="background:orangered" name="type" value="Shortest" >Shortest</td>
                 </tr>
                 <tr>
                     <th> </th>
-                    <td><input type="checkbox" name="type" value="dangerous">Most dangerous</td>
-                </tr>
-                <tr>
-                    <th> </th>
-                    <td><input type="checkbox" name="type" value="safest_streets">Safest streets</td>
+                    <td><input type="checkbox" style="background-color:palegreen" name="type"  value="Less dangerous">Most dangerous</td>
                 </tr>
                 <tr>
                     <th></th>
@@ -45,9 +51,10 @@
         </form>
         </div>
         <div>
-            {{ data | safe }}
-            {{ start_location | safe }}
-            {{ end_location | safe }}
+            {{ data | safe }}
+            {{ start_location | safe }}
+            {{ end_location | safe }}
+            
         </div>
     </div>
 </body>
