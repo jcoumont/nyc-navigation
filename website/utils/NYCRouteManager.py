@@ -56,7 +56,7 @@ def save_osm(G, filepath):
     ox.save_graphml(G, filepath=filepath)
 
 
-def load_osm(filepath, specific_dtypes={"risk": float, "global_risk": float}):
+def load_osm(filepath, specific_dtypes={"risk": float, "global_risk": float, "length": float}):
     """
     Load an OSMnx-saved GraphML file from disk.
 
@@ -291,6 +291,25 @@ class NYCRouteManager:
 
         """
         return self.get_route(point_from, point_to, weight="global_risk")
+    
+    def get_safest_short_route(self, point_from, point_to):
+        """
+        Returns the safest path from point_from to point_to in
+        the NYC streets network by looking for a short disance.
+
+        Call `get_route` using `length + global_risk * 100` as weight
+
+        See get_route(self, point_from, point_to, weight=weight)
+        for more information.
+        """
+
+        def safest_short_weight(u, v, d):
+            edge_risk = d.get("global_risk", 0)
+            edge_length = d.get("length", 0)
+            risk_cost = edge_risk * edge_length
+            return edge_length + risk_cost
+
+        return self.get_route(point_from, point_to, weight=safest_short_weight)
 
     def get_shortest_route(self, point_from, point_to):
         """
@@ -314,10 +333,10 @@ class NYCRouteManager:
 
     def get_most_dangerous_route(self, point_from, point_to):
         """
-        Returns the safest path from point_from to point_to in
+        Returns the dangerous path from point_from to point_to in
         the NYC streets network.
 
-        Call `get_route` using `risk * -1` as weight
+        Call `get_route` using `global_risk * -1` as weight
 
         See get_route(self, point_from, point_to, weight=weight)
         for more information.
@@ -339,6 +358,8 @@ class NYCRouteManager:
                 route = self.get_shortest_route(point_from, point_to)
             elif route_type == "dangerous":
                 route = self.get_most_dangerous_route(point_from, point_to)
+            elif route_type == "safest_short":
+                route = self.get_safest_short_route(point_from, point_to)
             if route is not None:
                 routes[route_type] = route
         return routes
