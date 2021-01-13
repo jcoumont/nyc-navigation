@@ -27,7 +27,7 @@ def login():
     from_address = request.form["from_address"]
     to_address = request.form["to_address"]
     route_types = ["safest"]
-    route_types.extend(request.form.getlist('type'))
+    route_types.extend(request.form.getlist("type"))
 
     try:
         start_location = get_coordinates(from_address)
@@ -48,9 +48,8 @@ def login():
         )
     except Exception as err:
         msg = f"Error : {err}"
-        return render_template(
-            "default.html", title="Navigation : Error", data=msg
-        )
+        return render_template("default.html", title="Navigation : Error", data=msg)
+
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))

@@ -8,28 +8,29 @@ from folium import plugins
 class NYCMapManager:
     latitude = 40.677834
     longitude = -74.012443
-    crashes_filepath = 'data/NYC_crashes_100000_osmid.csv'
+    crashes_filepath = "data/NYC_crashes_100000_osmid.csv"
     layer_crashes = None
     default_colors = {
-                        "shortest": "blue",
-                        "safest": "green",
-                        "dangerous": "red",
-                        "safest_short": "orange",
-                        "other": "yellow"
-                     }
-    
-    range_of_colour = { 10:"#FF4500",
-                        9:"#FF0000",
-                        8:"#FF6347",
-                        7:"#FF8C00",
-                        6:"#FFA500",
-                        5:"#FFD700",
-                        4:"#FFFF00",
-                        3:"#9ACD32",
-                        2:"#7FFF00",
-                        1:"#00FF00",
-                        0:"#00FF00"} # red, tomate, dark orange, orange, yellow, gold, yellowgreen, reus, lim
+        "shortest": "blue",
+        "safest": "green",
+        "dangerous": "red",
+        "safest_short": "orange",
+        "other": "yellow",
+    }
 
+    range_of_colour = {
+        10: "#FF4500",
+        9: "#FF0000",
+        8: "#FF6347",
+        7: "#FF8C00",
+        6: "#FFA500",
+        5: "#FFD700",
+        4: "#FFFF00",
+        3: "#9ACD32",
+        2: "#7FFF00",
+        1: "#00FF00",
+        0: "#00FF00",
+    }  # red, tomate, dark orange, orange, yellow, gold, yellowgreen, reus, lim
 
     # def __init__(self):
     #     self.initialize_crashes_layer()
@@ -74,7 +75,9 @@ class NYCMapManager:
     #                                 fill_opacity=0.7,
     #                                 fill=True).add_to(marker_cluster)
 
-    def get_map(self, from_address: str, to_address: str, routes=None, use_gradient=True):
+    def get_map(
+        self, from_address: str, to_address: str, routes=None, use_gradient=True
+    ):
         """Return the html code to display map
 
         Args:
@@ -85,29 +88,45 @@ class NYCMapManager:
             map_nyc._repr_html_(): the map in html format
         """
         map_nyc = folium.Map(location=[self.latitude, self.longitude], zoom_start=10)
-        #self.layer_crashes.add_to(map_nyc)
+        # self.layer_crashes.add_to(map_nyc)
         marker_added = False
         if routes is not None:
-            
+
             if type(routes) is dict:
                 for key in routes:
                     route = routes[key]
                     if not marker_added:
-                        from_point = [route.iloc[0]["geometry"].xy[1][0], route.iloc[0]["geometry"].xy[0][0]]
-                        to_point = [route.iloc[-1]["geometry"].xy[1][-1],route.iloc[-1]["geometry"].xy[0][-1]]
+                        from_point = [
+                            route.iloc[0]["geometry"].xy[1][0],
+                            route.iloc[0]["geometry"].xy[0][0],
+                        ]
+                        to_point = [
+                            route.iloc[-1]["geometry"].xy[1][-1],
+                            route.iloc[-1]["geometry"].xy[0][-1],
+                        ]
 
-                        folium.Marker(from_point, tooltip="From : " + from_address, icon=folium.Icon(color="blue")).add_to(map_nyc)
-                        folium.Marker(to_point, tooltip="To : " + to_address, icon=folium.Icon(color="red")).add_to(map_nyc)
+                        folium.Marker(
+                            from_point,
+                            tooltip="From : " + from_address,
+                            icon=folium.Icon(color="blue"),
+                        ).add_to(map_nyc)
+                        folium.Marker(
+                            to_point,
+                            tooltip="To : " + to_address,
+                            icon=folium.Icon(color="red"),
+                        ).add_to(map_nyc)
 
-                    length_km = round((route["length"].sum()/1000), 3)
-                        
-                    if use_gradient :  # Draw the path with gradient
+                    length_km = round((route["length"].sum() / 1000), 3)
+
+                    if use_gradient:  # Draw the path with gradient
                         # Transform the risk on a range from 0-10
                         # route["global_risk"] = round((route["global_risk"]/route["global_risk"].max())*10)
-                        #for path_part, risk in zip(route["geometry"], route["global_risk"]):
+                        # for path_part, risk in zip(route["geometry"], route["global_risk"]):
                         #    choropleth = folium.Choropleth(path_part,line_weight=5, line_color=self.range_of_colour[risk], line_opacity=1)
                         #    layer_group.add_child(choropleth)
-                        layer_group = folium.FeatureGroup(name=f"{key} ({length_km} km) (risk view)", show=False).add_to(map_nyc)
+                        layer_group = folium.FeatureGroup(
+                            name=f"{key} ({length_km} km) (risk view)", show=False
+                        ).add_to(map_nyc)
 
                         def get_colour(feature):
                             """Maps low values to green and hugh values to red."""
@@ -119,17 +138,27 @@ class NYCMapManager:
                                 return "#FF8C00"
                             else:
                                 return "#FF4500"
-                        for path_part, risk in zip(route["geometry"], route["global_risk"]):
-                            choropleth = folium.Choropleth(path_part, line_weight=5, line_color=get_colour(risk), line_opacity=1)
+
+                        for path_part, risk in zip(
+                            route["geometry"], route["global_risk"]
+                        ):
+                            choropleth = folium.Choropleth(
+                                path_part,
+                                line_weight=5,
+                                line_color=get_colour(risk),
+                                line_opacity=1,
+                            )
                             layer_group.add_child(choropleth)
-                    
+
                     color = self.default_colors[key]
-                    layer_group = folium.FeatureGroup(name=f"{key} ({length_km} km) ({color})").add_to(map_nyc)
+                    layer_group = folium.FeatureGroup(
+                        name=f"{key} ({length_km} km) ({color})"
+                    ).add_to(map_nyc)
                     choropleth = folium.Choropleth(
-                                        route, line_weight=5, line_color=color, line_opacity=0.7
-                                    )
+                        route, line_weight=5, line_color=color, line_opacity=0.7
+                    )
                     layer_group.add_child(choropleth)
-                    
+
                     tb = route.total_bounds
                 map_nyc.fit_bounds([(tb[1], tb[0]), (tb[3], tb[2])])
             else:

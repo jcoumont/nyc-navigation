@@ -4,7 +4,6 @@ import networkx as nx
 from os import path
 
 
-
 def download_osm(query="New York City, New York, USA", network_type="drive"):
     """
     Create graph from OSM within the boundaries of some geocodable place(s).
@@ -56,7 +55,9 @@ def save_osm(G, filepath):
     ox.save_graphml(G, filepath=filepath)
 
 
-def load_osm(filepath, specific_dtypes={"risk": float, "global_risk": float, "length": float}):
+def load_osm(
+    filepath, specific_dtypes={"risk": float, "global_risk": float, "length": float}
+):
     """
     Load an OSMnx-saved GraphML file from disk.
 
@@ -292,7 +293,6 @@ class NYCRouteManager:
         """
         return self.get_route(point_from, point_to, weight="global_risk")
 
-    
     def get_safest_streets_route(self, point_from, point_to):
         """
         Returns the safest path from point_from to point_to in
@@ -307,7 +307,7 @@ class NYCRouteManager:
         def safest_street_weight(u, v, d):
             length = d[0].get("length", 0)
             global_risk = d[0].get("global_risk", 0)
-            return length * (global_risk+1)
+            return length * (global_risk + 1)
 
         return self.get_route(point_from, point_to, weight=safest_street_weight)
 
@@ -352,7 +352,7 @@ class NYCRouteManager:
             elif edge_risk < 7:
                 edge_risk = 250
             elif edge_risk < 10:
-                edge_risk = 100    
+                edge_risk = 100
             else:
                 edge_risk = 1
             return edge_length * edge_risk
