@@ -16,6 +16,18 @@ class NYCMapManager:
                         "dangerous": "red",
                         "other": "yellow"
                      }
+    
+    range_of_colour = { 10:"#FF4500",
+                        9:"#FF0000",
+                        8:"#FF6347",
+                        7:"#FF8C00",
+                        6:"#FFA500",
+                        5:"#FFD700",
+                        4:"#FFFF00",
+                        3:"#9ACD32",
+                        2:"#7FFF00",
+                        1:"#00FF00",
+                        0:"#00FF00"} # red, tomate, dark orange, orange, yellow, gold, yellowgreen, reus, lim
 
     # def __init__(self):
     #     self.initialize_crashes_layer()
@@ -76,13 +88,20 @@ class NYCMapManager:
         if routes is not None:
             if type(routes) is dict:
                 for key in routes:
-                    choropleth = folium.Choropleth(
-                                        routes[key], line_weight=5, line_color=self.default_colors[key], line_opacity=0.5
-                                    )
-                    layer_group = folium.FeatureGroup(name=key).add_to(map_nyc)
-                    layer_group.add_child(choropleth)
-                    tb = routes[key].total_bounds
-                    map_nyc.fit_bounds([(tb[1], tb[0]), (tb[3], tb[2])])
+                    route = routes[key]
+                    if key == "safest" :  # Draw the safest way with gradient
+                        # Normalize the risk
+                        route["global_risk"] = (route["global_risk"]-route["global_risk"].min()) / (route["global_risk"].max() - route["global_risk"].min())
+                        for i, ii in zip(route["geometry"], route["global_risk"]):
+                            folium.Choropleth(i,line_weight=5, line_color=self.range_of_colour[round(ii*10)], line_opacity=1).add_to(map_nyc)
+                    else:
+                        choropleth = folium.Choropleth(
+                                            route, line_weight=5, line_color=self.default_colors[key], line_opacity=0.5
+                                        )
+                        layer_group = folium.FeatureGroup(name=key).add_to(map_nyc)
+                        layer_group.add_child(choropleth)
+                    tb = route.total_bounds
+                map_nyc.fit_bounds([(tb[1], tb[0]), (tb[3], tb[2])])
             else:
                 folium.Choropleth(
                     routes, line_weight=5, line_color="blue", line_opacity=0.5
