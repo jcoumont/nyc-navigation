@@ -89,16 +89,18 @@ class NYCMapManager:
             if type(routes) is dict:
                 for key in routes:
                     route = routes[key]
+                    layer_group = folium.FeatureGroup(name=key).add_to(map_nyc)
+                        
                     if key == "safest" :  # Draw the safest way with gradient
                         # Normalize the risk
                         route["global_risk"] = (route["global_risk"]-route["global_risk"].min()) / (route["global_risk"].max() - route["global_risk"].min())
                         for i, ii in zip(route["geometry"], route["global_risk"]):
-                            folium.Choropleth(i,line_weight=5, line_color=self.range_of_colour[round(ii*10)], line_opacity=1).add_to(map_nyc)
+                            choropleth = folium.Choropleth(i,line_weight=5, line_color=self.range_of_colour[round(ii*10)], line_opacity=1)
+                            layer_group.add_child(choropleth)
                     else:
                         choropleth = folium.Choropleth(
                                             route, line_weight=5, line_color=self.default_colors[key], line_opacity=0.5
                                         )
-                        layer_group = folium.FeatureGroup(name=key).add_to(map_nyc)
                         layer_group.add_child(choropleth)
                     tb = route.total_bounds
                 map_nyc.fit_bounds([(tb[1], tb[0]), (tb[3], tb[2])])
