@@ -34,7 +34,7 @@ def login():
         end_location = get_coordinates(to_address)
 
         routes = route_manager.get_routes(start_location, end_location, route_types)
-        data = map_manager.get_map(start_location, end_location, routes=routes)
+        data = map_manager.get_map(from_address, to_address, routes=routes)
 
         return render_template("default.html", title="Navigation", data=data)
         # return render_template("default.html", title="Navigation", start_location=start_location, end_location=end_location)

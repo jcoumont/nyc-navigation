@@ -74,7 +74,7 @@ class NYCMapManager:
     #                                 fill_opacity=0.7,
     #                                 fill=True).add_to(marker_cluster)
 
-    def get_map(self, from_coord: tuple, to_coord: tuple, routes=None, use_gradient=True):
+    def get_map(self, from_address: str, to_address: str, routes=None, use_gradient=True):
         """Return the html code to display map
 
         Args:
@@ -86,11 +86,19 @@ class NYCMapManager:
         """
         map_nyc = folium.Map(location=[self.latitude, self.longitude], zoom_start=10)
         #self.layer_crashes.add_to(map_nyc)
-
+        marker_added = False
         if routes is not None:
+            
             if type(routes) is dict:
                 for key in routes:
                     route = routes[key]
+                    if not marker_added:
+                        from_point = [route.iloc[0]["geometry"].xy[1][0], route.iloc[0]["geometry"].xy[0][0]]
+                        to_point = [route.iloc[-1]["geometry"].xy[1][-1],route.iloc[-1]["geometry"].xy[0][-1]]
+
+                        folium.Marker(from_point, tooltip="From : " + from_address, icon=folium.Icon(color="blue")).add_to(map_nyc)
+                        folium.Marker(to_point, tooltip="To : " + to_address, icon=folium.Icon(color="red")).add_to(map_nyc)
+
                     length_km = round((route["length"].sum()/1000), 3)
                         
                     if use_gradient :  # Draw the path with gradient
