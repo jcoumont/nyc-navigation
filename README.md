@@ -27,23 +27,34 @@ Challenge realized @BeCode
 xyz blablabla xyz
 
 ### Must-have features
-- [ ] Create a graph of edges and vertices mapping to roads and intersections
-- [ ] Apply an algorithm to find the *least dangerous path* between two streets and/or coordinates.
-- [ ] Build a graphical interface that shows the *least dangerous path* on a map of New York.
+- [x] Create a graph of edges and vertices mapping to roads and intersections
+- [x] Apply an algorithm to find the *least dangerous path* between two streets and/or coordinates.
+- [x] Build a graphical interface that shows the *least dangerous path* on a map of New York.
 
   It does not have to be interactive, e.g. you can just get the street names/coordinates as arguments to a function, and show the result on a map.
-- [ ] Code is PEP8 compliant
+- [x] Code is PEP8 compliant
 - [ ] Code is formatted using `Black`
-- [ ] Code duplication is reduced.
+- [x] Code duplication is reduced.
 - [ ] Functions and objects have been used.
 
 ### Nice-to-have features
-- [ ] Create different algorithms e.g. one for the *most dangerous path*. Be creative.
-- [ ] Make an interactive version of this where the user can add the streets/coordinates in the browser.
-- [ ] Deploy your app on the platform of your choice.
+- [x] Create different algorithms e.g. one for the *most dangerous path*. Be creative.
+- [x] Make an interactive version of this where the user can add the streets/coordinates in the browser.
+- [x] Deploy your app on the platform of your choice.
 ## Usage
-xyz blablabla xyz
+Launch the API : `python route.py`  
+Access the API by using this url : http://localhost:5000/  
 ## Installation
-xyz blablabla xyz
+The needed libraries are in the requirement.txt. To install it, use the command below:  
+  
+``` sh
+python -m pip install -r requirements.txt
+```  
+### *Links to documentation :*
+- [Flask](https://flask.palletsprojects.com/en/1.1.x/) : To display the website
+- [Docker](https://docs.docker.com/) : to run the code int a container and deploy it on Azure
+- [Networkx](https://networkx.org/documentation/stable/) : To create and manipulate a graph
+- [Osmnx](https://osmnx.readthedocs.io/en/stable/osmnx.html) : to manipulate coordinates
+- [Folium](https://python-visualization.github.io/folium/) : to diplay a map of New York
 ## Live version
-xyz blablabla xyz
+The live version is [here](https://nyc-navigation.azurewebsites.net/)
