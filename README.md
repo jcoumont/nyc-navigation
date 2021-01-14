@@ -33,9 +33,9 @@ xyz blablabla xyz
 
   It does not have to be interactive, e.g. you can just get the street names/coordinates as arguments to a function, and show the result on a map.
 - [x] Code is PEP8 compliant
-- [ ] Code is formatted using `Black`
+- [x] Code is formatted using `Black`
 - [x] Code duplication is reduced.
-- [ ] Functions and objects have been used.
+- [x] Functions and objects have been used.
 
 ### Nice-to-have features
 - [x] Create different algorithms e.g. one for the *most dangerous path*. Be creative.
